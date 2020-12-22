@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MT</string>
     <string name="connect_back">返回</string>
-    <string name="connect_demo_version">MT\nV1.1.4</string>
+    <string name="connect_demo_version">MT\nV1.1.5</string>
     <string name="connect_wyze_scale">连接性测试</string>
     <string name="connect_wyze_long_connect">蓝牙长连接性测试</string>
     <string name="connect_phone_style_num">手机型号</string>
