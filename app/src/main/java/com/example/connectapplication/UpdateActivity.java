@@ -37,6 +37,7 @@ import com.example.connectapplication.utils.GetTime;
 import com.example.connectapplication.utils.ScanBlueTooth;
 import com.example.connectapplication.utils.Util;
 import com.example.connectapplication.utils.WriteLogToFile;
+import com.ryeex.ble.common.utils.FileUtil;
 import com.ryeex.ble.connector.handler.BleHandler;
 import com.ryeex.ble.connector.scan.BleScanner;
 import com.ryeex.ble.connector.scan.ScannedDevice;
@@ -130,6 +131,8 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
     private String downgradefilename1;
     private String fileDir = WriteLogToFile.logPath + File.separator + "watchupdate/";
 
+    private String filePath = WriteLogToFile.logPath + File.separator + "errorLog--" + Util.getTodayStr() + ".txt";
+
     private final int MSG_GET_UPDATE_INFO = 10096;
     private final int MSG_GET_UPDATE_LOGIN = 100097;
     Handler uHandler = new Handler(Looper.getMainLooper()) {
@@ -139,45 +142,47 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
 
             switch (msg.what) {
                 case MSG_GET_UPDATE_INFO:
-                    Log.d("yj","MSG_GET_UPDATE_INFO11111111111");
+                    Log.d("yj", "MSG_GET_UPDATE_INFO11111111111");
                     isComputeUpdated = false;
-                    Log.d("yj","handler-----msg---isDownGrade---"+isDownGrade);
-                    Log.d("yj","playCount-----msg---playCount---"+playCount);
-                    if(playCount==0){
+                    Log.d("yj", "handler-----msg---isDownGrade---" + isDownGrade);
+                    Log.d("yj", "playCount-----msg---playCount---" + playCount);
+                    if (playCount == 0) {
                         uHandler.removeCallbacksAndMessages(null);
                         isComputeUpdated = true;
                         test_update_progress_selected.setText("升级成功");
                         wrong_log_records.setText(wrong_logs);
-                        getUpdateCount(timeupdateList,update_max_time,update_min_time,update_average_time,update_success,update_failure,update_success_rate);
-                        getDownGradeCount(timedownlist,downgrade_max_time,downgrade_min_time,downgrade_average_time,downgrade_success,downgrade_failure,downgrade_success_rate);
+                        FileUtil.appendString(filePath, wrong_logs + " " + Util.getFormatTime(System.currentTimeMillis() / 1000, "yyyy-MM-dd HH:mm:ss"));
+
+                        getUpdateCount(timeupdateList, update_max_time, update_min_time, update_average_time, update_success, update_failure, update_success_rate);
+                        getDownGradeCount(timedownlist, downgrade_max_time, downgrade_min_time, downgrade_average_time, downgrade_success, downgrade_failure, downgrade_success_rate);
                     }
-                    if(playCount>0) {
+                    if (playCount > 0) {
                         if (!isDownGrade) {
                             playCount--;
                             CommonValue.UPDATE_ALL_COUNT++;
-                            test_current_count.setText(CommonValue.UPDATE_ALL_COUNT+"次");
+                            test_current_count.setText(CommonValue.UPDATE_ALL_COUNT + "次");
                             update_on_time = 0;
-                            Log.d("yj","updatefilename1---"+updatefilename1);
-                            Log.d("yj","updatefilename---"+updatefilename);
-                            if (updatefilename1==null) {
+                            Log.d("yj", "updatefilename1---" + updatefilename1);
+                            Log.d("yj", "updatefilename---" + updatefilename);
+                            if (updatefilename1 == null) {
                                 ScanBlueTooth.UpdateVersion(watchDevice, select_version_upgrade_num.getText().toString().trim(), fileDir, updatefilename);
 
-                            }else {
+                            } else {
                                 ScanBlueTooth.UpdateVersion1(watchDevice, select_version_upgrade_num.getText().toString().trim(), fileDir, updatefilename, updatefilename1);
                             }
-                        }else {
+                        } else {
                             update_on_time = 0;
-                            if (updatefilename1==null) {
+                            if (updatefilename1 == null) {
                                 ScanBlueTooth.UpdateVersion(watchDevice, select_version_downgrade_num.getText().toString().trim(), fileDir, downgradefilename);
-                            }else {
-                                ScanBlueTooth.UpdateVersion1(watchDevice, select_version_downgrade_num.getText().toString().trim(), fileDir, downgradefilename,downgradefilename1);
+                            } else {
+                                ScanBlueTooth.UpdateVersion1(watchDevice, select_version_downgrade_num.getText().toString().trim(), fileDir, downgradefilename, downgradefilename1);
                             }
 
                         }
                     }
                     break;
                 case MSG_GET_UPDATE_LOGIN:
-                    Log.d("yj","MSG_GET_UPDATE_LOGIN22222222222");
+                    Log.d("yj", "MSG_GET_UPDATE_LOGIN22222222222");
                     ScanBlueTooth.startLogin(watchDevice);
                     break;
             }
@@ -192,7 +197,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_update_ota);
         getAllname(fileDir);
         currentday = GetTime.getCurrentTime_Today();
-        popupWindowAdapter = new PopupWindowAdapter(UpdateActivity.this,filenames);
+        popupWindowAdapter = new PopupWindowAdapter(UpdateActivity.this, filenames);
         getUpdatePopWindow();
         getDowngradePopWindow();
         getUpdatePopWindow1();
@@ -304,39 +309,39 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
                 break;
             case R.id.select_version_upgrade_releate:
                 popupWindowAdapter.notifyDataSetChanged();
-                if(Build.VERSION.SDK_INT==24) {
-                    int[] a =new int[2];
+                if (Build.VERSION.SDK_INT == 24) {
+                    int[] a = new int[2];
                     view.getLocationInWindow(a);
-                    listPopupWindow.setHeight(getResources().getDisplayMetrics().heightPixels- a[1] - view.getHeight());
+                    listPopupWindow.setHeight(getResources().getDisplayMetrics().heightPixels - a[1] - view.getHeight());
                 }
-                Log.d("yj","fileDir--------"+fileDir);
+                Log.d("yj", "fileDir--------" + fileDir);
                 listPopupWindow.show();
                 break;
             case R.id.select_version_downgrade_releate:
                 popupWindowAdapter.notifyDataSetChanged();
-                if(Build.VERSION.SDK_INT==24) {
-                    int[] a =new int[2];
+                if (Build.VERSION.SDK_INT == 24) {
+                    int[] a = new int[2];
                     view.getLocationInWindow(a);
-                    dlistPopupWindow.setHeight(getResources().getDisplayMetrics().heightPixels- a[1] - view.getHeight());
+                    dlistPopupWindow.setHeight(getResources().getDisplayMetrics().heightPixels - a[1] - view.getHeight());
                 }
                 dlistPopupWindow.show();
                 break;
             case R.id.select_version_upgrade_releate1:
                 popupWindowAdapter.notifyDataSetChanged();
-                if(Build.VERSION.SDK_INT==24) {
-                    int[] a =new int[2];
+                if (Build.VERSION.SDK_INT == 24) {
+                    int[] a = new int[2];
                     view.getLocationInWindow(a);
-                    listPopupWindow1.setHeight(getResources().getDisplayMetrics().heightPixels- a[1] - view.getHeight());
+                    listPopupWindow1.setHeight(getResources().getDisplayMetrics().heightPixels - a[1] - view.getHeight());
                 }
-                Log.d("yj","fileDir--------"+fileDir);
+                Log.d("yj", "fileDir--------" + fileDir);
                 listPopupWindow1.show();
                 break;
             case R.id.select_version_downgrade_releate1:
                 popupWindowAdapter.notifyDataSetChanged();
-                if(Build.VERSION.SDK_INT==24) {
-                    int[] a =new int[2];
+                if (Build.VERSION.SDK_INT == 24) {
+                    int[] a = new int[2];
                     view.getLocationInWindow(a);
-                    dlistPopupWindow1.setHeight(getResources().getDisplayMetrics().heightPixels- a[1] - view.getHeight());
+                    dlistPopupWindow1.setHeight(getResources().getDisplayMetrics().heightPixels - a[1] - view.getHeight());
                 }
                 dlistPopupWindow1.show();
                 break;
@@ -353,7 +358,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
                 }
                 break;
             case R.id.title_test_stop:
-                if(Util.isFastClick())
+                if (Util.isFastClick())
                     stopTest();
                 break;
         }
@@ -367,10 +372,10 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         CommonValue.isUpdateSecond = "secondisworked";
     }
 
-    private void getAllname(String fileDir){
+    private void getAllname(String fileDir) {
         ArrayList<String> ss = Util.getFileName(fileDir, ".bin");
         for (String s : ss) {
-            String versionname = s.substring(0,s.lastIndexOf("."));
+            String versionname = s.substring(0, s.lastIndexOf("."));
             filenames.add(versionname);
         }
 
@@ -408,57 +413,57 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEvent(BindEvent event) {
-        Log.d("yj","进入onevent--------");
+        Log.d("yj", "进入onevent--------");
         if (event.message.equals(CommonValue.BIND_SUCCESS)) {
-            Log.d("yj","onevent1--------");
+            Log.d("yj", "onevent1--------");
             test_bind_unbind_result.setText("绑定设备成功");
-            CommonShared.WriteToken(UpdateActivity.this,phone_select_device.getText().toString().trim(),watchDevice.getToken());
+            CommonShared.WriteToken(UpdateActivity.this, phone_select_device.getText().toString().trim(), watchDevice.getToken());
             isBind = true;
         } else if (event.message.equals(CommonValue.BIND_ERROR)) {
-            Log.d("yj","onevent2--------");
+            Log.d("yj", "onevent2--------");
             wrong_logs = wrong_logs + "\n" + event.errorinfo;
             test_bind_unbind_result.setText("绑定设备失败");
             //ConnectionDialog.showNormalDialog(NotificationAutoTestActivity.this);
-            watchDevice.setToken(CommonShared.ReadToken(UpdateActivity.this,phone_select_device.getText().toString().trim()));
+            watchDevice.setToken(CommonShared.ReadToken(UpdateActivity.this, phone_select_device.getText().toString().trim()));
             ScanBlueTooth.startLogin(watchDevice);
         }
 
         if (event.message.equals(CommonValue.UNBIND_SUCCESS)) {
-            Log.d("yj","onevent3--------");
+            Log.d("yj", "onevent3--------");
             test_bind_unbind_result.setText("解绑设备成功");
             isBind = false;
         } else if (event.message.equals(CommonValue.UNBIND_ERROR)) {
-            Log.d("yj","onevent4--------");
+            Log.d("yj", "onevent4--------");
             wrong_logs = wrong_logs + "\n" + event.errorinfo;
             test_bind_unbind_result.setText("解绑设备失败");
         }
 
         if (event.message.equals(CommonValue.UPDATE_PREGRESS)) {
-            Log.d("yj","onevent5--------");
-            test_update_progress_selected.setText(Float.parseFloat(event.errorinfo)*100 + "%");
+            Log.d("yj", "onevent5--------");
+            test_update_progress_selected.setText(Float.parseFloat(event.errorinfo) * 100 + "%");
 
         }
 
         if (event.message.equals(CommonValue.UPDATE_SUCCESS)) {
             if (!isDownGrade) {
-                Log.d("yj","onevent6--------");
+                Log.d("yj", "onevent6--------");
                 CommonValue.UPDATE_SUCCESS_COUNT++;
                 timeupdateList.add(update_on_time);
                 test_update_progress_selected.setText("升级成功");
                 isDownGrade = true;
-                uHandler.sendEmptyMessageDelayed(MSG_GET_UPDATE_LOGIN,30*1000);
+                uHandler.sendEmptyMessageDelayed(MSG_GET_UPDATE_LOGIN, 30 * 1000);
             } else {
-                Log.d("yj","onevent7--------");
+                Log.d("yj", "onevent7--------");
                 CommonValue.DOWNGRADE_SUCCESS_COUNT++;
                 timedownlist.add(update_on_time);
                 test_update_progress_selected.setText("降级成功");
                 isDownGrade = false;
                 long time;
-                if(!isComputeUpdated) {
-                    if(playspace>10)
-                        time = playspace*1000;
+                if (!isComputeUpdated) {
+                    if (playspace > 10)
+                        time = playspace * 1000;
                     else
-                        time = 30*1000;
+                        time = 30 * 1000;
                     uHandler.sendEmptyMessageDelayed(MSG_GET_UPDATE_LOGIN, time);
                 }
             }
@@ -466,7 +471,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         }
 
         if (event.message.equals(CommonValue.UPDATE_FAIL)) {
-            Log.d("yj","onevent8--------");
+            Log.d("yj", "onevent8--------");
             wrong_logs = wrong_logs + "\n" + event.errorinfo;
             if (!isDownGrade) {
                 CommonValue.UPDATE_FAIL_COUNT++;
@@ -474,24 +479,24 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
                 CommonValue.DOWNGRADE_FAIL_COUNT++;
             }
             test_update_progress_selected.setText("升级失败");
-            uHandler.sendEmptyMessageDelayed(MSG_GET_UPDATE_LOGIN,30*1000);
+            uHandler.sendEmptyMessageDelayed(MSG_GET_UPDATE_LOGIN, 30 * 1000);
 //            uHandler.sendEmptyMessage(MSG_GET_UPDATE_LOGIN);
 
         }
 
         if (event.message.equals(CommonValue.LOGIN_SUCCESS)) {
-            Log.d("yj","isComputeUpdate----login--"+isComputeUpdated);
-            if(!isComputeUpdated) {
-                Log.d("yj","isDownGrade---login---"+isDownGrade);
+            Log.d("yj", "isComputeUpdate----login--" + isComputeUpdated);
+            if (!isComputeUpdated) {
+                Log.d("yj", "isDownGrade---login---" + isDownGrade);
                 if (!isDownGrade)
                     uHandler.sendEmptyMessage(MSG_GET_UPDATE_INFO);
                 else {
-                    Log.d("yj","CommonValue.UPDATE_ALL_COUNT---login---"+CommonValue.UPDATE_ALL_COUNT);
-                    Log.d("yj","phone_count.getText().toString().trim()---login---"+test_all_time.getText());
+                    Log.d("yj", "CommonValue.UPDATE_ALL_COUNT---login---" + CommonValue.UPDATE_ALL_COUNT);
+                    Log.d("yj", "phone_count.getText().toString().trim()---login---" + test_all_time.getText());
                     uHandler.sendEmptyMessage(MSG_GET_UPDATE_INFO);
                 }
             }
-        }else if(event.message.equals(CommonValue.LOGIN_ERROR)){
+        } else if (event.message.equals(CommonValue.LOGIN_ERROR)) {
             uHandler.sendEmptyMessageDelayed(MSG_GET_UPDATE_LOGIN, 5000);
         }
     }
@@ -501,7 +506,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         if (event.message.equals(CommonValue.UPDATE_ON_UPDATE)) {
             int time = event.time;
             update_on_time = update_on_time + time;
-            Log.d("yj","update_on_time-----"+update_on_time);
+            Log.d("yj", "update_on_time-----" + update_on_time);
         }
     }
 
@@ -516,14 +521,15 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         test_update_progress_selected.setText(getResources().getString(R.string.connect_phone_test_result));
 //        sync_result.setText(getResources().getString(R.string.connect_phone_test_result));
         wrong_log_records.setText(wrong_logs);
+        FileUtil.appendString(filePath, wrong_logs + " " + Util.getFormatTime(System.currentTimeMillis() / 1000, "yyyy-MM-dd HH:mm:ss"));
         if (BleScanner.getInstance().isScanning()) {
             BleScanner.getInstance().stopScan();
         }
-        getUpdateCount(timeupdateList,update_max_time,update_min_time,update_average_time,update_success,update_failure,update_success_rate);
-        getDownGradeCount(timedownlist,downgrade_max_time,downgrade_min_time,downgrade_average_time,downgrade_success,downgrade_failure,downgrade_success_rate);
+        getUpdateCount(timeupdateList, update_max_time, update_min_time, update_average_time, update_success, update_failure, update_success_rate);
+        getDownGradeCount(timedownlist, downgrade_max_time, downgrade_min_time, downgrade_average_time, downgrade_success, downgrade_failure, downgrade_success_rate);
     }
 
-    private void getUpdateCount(List<Long> list,TextView max_time,TextView min_time,TextView average_time,TextView send_update_success_num, TextView send_update_fail_num, TextView send_update_success_rate) {
+    private void getUpdateCount(List<Long> list, TextView max_time, TextView min_time, TextView average_time, TextView send_update_success_num, TextView send_update_fail_num, TextView send_update_success_rate) {
         if (list.size() > 0) {
             long max = Collections.max(list);
             long min = Collections.min(list);
@@ -537,9 +543,9 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
                 }
                 average = a / list.size();
             }
-            max_time.setText(max +"毫秒");
-            min_time.setText( min + "毫秒");
-            average_time.setText(average+"毫秒");
+            max_time.setText(max + "毫秒");
+            min_time.setText(min + "毫秒");
+            average_time.setText(average + "毫秒");
         }
         send_update_success_num.setText(CommonValue.UPDATE_SUCCESS_COUNT + "次");
         send_update_fail_num.setText(CommonValue.UPDATE_FAIL_COUNT + "次");
@@ -552,7 +558,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         }
     }
 
-    private void getDownGradeCount(List<Long> list,TextView max_time,TextView min_time,TextView average_time,TextView send_downgrade_success_num, TextView send_downgrade_fail_num, TextView send_downgrade_success_rate) {
+    private void getDownGradeCount(List<Long> list, TextView max_time, TextView min_time, TextView average_time, TextView send_downgrade_success_num, TextView send_downgrade_fail_num, TextView send_downgrade_success_rate) {
         if (list.size() > 0) {
             long max = Collections.max(list);
             long min = Collections.min(list);
@@ -566,16 +572,16 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
                 }
                 average = a / list.size();
             }
-            max_time.setText(max +"毫秒");
-            min_time.setText( min + "毫秒");
-            average_time.setText(average+"毫秒");
+            max_time.setText(max + "毫秒");
+            min_time.setText(min + "毫秒");
+            average_time.setText(average + "毫秒");
         }
         send_downgrade_success_num.setText(CommonValue.DOWNGRADE_SUCCESS_COUNT + "次");
         send_downgrade_fail_num.setText(CommonValue.DOWNGRADE_FAIL_COUNT + "次");
-        if (CommonValue.DOWNGRADE_SUCCESS_COUNT == 0 ) {
+        if (CommonValue.DOWNGRADE_SUCCESS_COUNT == 0) {
             send_downgrade_success_rate.setText("0%");
         } else {
-            float ra = (CommonValue.DOWNGRADE_SUCCESS_COUNT / (Float.parseFloat(phone_count.getText().toString().trim())-1)) * 100;
+            float ra = (CommonValue.DOWNGRADE_SUCCESS_COUNT / (Float.parseFloat(phone_count.getText().toString().trim()) - 1)) * 100;
             String raa = Util.getTwoFloat(ra);
             send_downgrade_success_rate.setText(raa + "%");
         }

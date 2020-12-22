@@ -17,7 +17,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView title_back;
 
@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         BleHandler.getWorkerHandler().post(new Runnable() {
             @Override
             public void run() {
-                copyAssets("1.3.0.245.bin");
-                copyAssets("245_all.bin");
+                copyAssets("1.0.2.79.bin");
+                copyAssets("79_all.bin");
             }
         });
     }
 
-    private void initView(){
+    private void initView() {
         title_back = findViewById(R.id.title_menu_back);
         blueToothConnecet = findViewById(R.id.title_bluetooth_into);
         blueToothNoConfirmConnected = findViewById(R.id.title_bluetooth_no_confirm_into);
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.title_menu_back:
                 finish();
                 break;
@@ -108,9 +108,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void gotoOtherActivity(Class classes){
+    private void gotoOtherActivity(Class classes) {
         Intent in = new Intent();
-        in.setClass(MainActivity.this,classes);
+        in.setClass(MainActivity.this, classes);
         startActivity(in);
     }
 
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             is.close();
             fos.close();
         } catch (Exception e) {
-            Log.e("yj","copy---exception---"+e.toString());
+            Log.e("yj", "copy---exception---" + e.toString());
             e.printStackTrace();
         }
     }
