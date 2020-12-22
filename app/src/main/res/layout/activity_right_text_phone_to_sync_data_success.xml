@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:background="@color/color_back_title">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/sync_phone_to_sync_health_data_success"
+    android:id="@+id/title_phone_to_sync_data_success"
+    android:textColor="@color/color_text"
+    android:textSize="15sp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_phone_to_sync_data_success"
+        android:textColor="@color/color_green"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"/>
+</RelativeLayout>

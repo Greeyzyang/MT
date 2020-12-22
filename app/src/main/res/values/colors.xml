@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_back_title">#F6F6F6</color>
+    <color name="color_text">#777777</color>
+    <color name="color_wyze_scale_bg">#D6D6D6</color>
+    <color name="color_divider_bg">#B1B1B1</color>
+    <color name="color_red">#CC0033</color>
+    <color name="color_green">#339933</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_blue">#0099FF</color>
+</resources>

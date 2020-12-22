@@ -1,0 +1,20 @@
+
+i
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¾¡½ßÿÿÿÿÿ
+g
+java:S2095a"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(´ç©²ıÿÿÿÿ
+t	java:S135À"YReduce the total number of break and continue statements in this loop to use at most one.(Ú¶´ûüÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(£«ãïşÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(ÈİòÏ
+9
+java:S2885%"#Make "logSDF" an instance variable.(ä•ñâ
+i
+java:S4042w"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(µª¥­øÿÿÿÿ
+U	java:S899w";Do something with the "boolean" value returned by "delete".(µª¥­øÿÿÿÿ
+W	java:S899z"=Do something with the "boolean" value returned by "renameTo".(æÎÀŞùÿÿÿÿ
+\	java:S899}"BDo something with the "boolean" value returned by "createNewFile".(´¸ö×şÿÿÿÿ
+B
+java:S1075¡"&Remove this hard-coded path-delimiter.(„¸ã ÿÿÿÿÿ
+]	java:S899®"BDo something with the "boolean" value returned by "createNewFile".(´¸ö×şÿÿÿÿ

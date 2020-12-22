@@ -1,0 +1,32 @@
+
+k
+java:S1192ã"MDefine a constant instead of duplicating this literal "/DeviceLogs/" 3 times.(¥ÃºÜ8˜€ÎÂÕ.
+X	java:S125‚"<This block of commented-out lines of code should be removed.(·ƒ¹f8¦…Å…Õ.
+X	java:S125¢"<This block of commented-out lines of code should be removed.(·ƒ¹f8©üÅ…Õ.
+Ÿ
+java:S1186š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡ï²8ñ­ô§Õ.
+j	java:S100Ò"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò©â.8¡ù¢©Õ.
+h
+java:S1764ø"ECorrect one of the identical sub-expressions on both sides of equals.(ßÉÜıÿÿÿÿ8ò§º®Õ.
+p	java:S100¯"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁêÅÿÿÿÿÿ8íÂ¿Ö.
+p	java:S100Ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙŸ¸«øÿÿÿÿ8áÁº„Õ.
+k	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Òèï8ñ­ô§Õ.
+¤
+java:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”»ñäÿÿÿÿÿ8ñ­ô§Õ.
+Y	java:S125ˆ"<This block of commented-out lines of code should be removed.(˜À·Ã8¦…Å…Õ.
+p	java:S100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿñïàÿÿÿÿÿ8ëÑÉ§Õ.
+U
+java:S1135°"2Complete the task associated to this TODO comment.(Ÿ›ïıÿÿÿÿ8Ëñ¿Ö.
+Y	java:S125À"<This block of commented-out lines of code should be removed.(¢ÿñÀ8ËêÆ…Õ.
+W
+java:S1118%":Add a private constructor to hide the implicit public one.(æÈÇ®8Ûêğ©Õ.
+^	java:S125 "<This block of commented-out lines of code should be removed.(¼¼Úåùÿÿÿÿ8©üÅ…Õ.
+^	java:S125€"<This block of commented-out lines of code should be removed.(€šúØøÿÿÿÿ8Ó°Å…Õ.
+I
+java:S1602,",Remove useless curly braces around statement(“˜õ8áÁº„Õ.
+k	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÚÄ8ñ­ô§Õ.
+Y	java:S125¨"<This block of commented-out lines of code should be removed.(˜À·Ã8©üÅ…Õ.
+X	java:S125Â"<This block of commented-out lines of code should be removed.(·ƒ¹f8ËêÆ…Õ.
+Y	java:S125È"<This block of commented-out lines of code should be removed.(˜À·Ã8ËêÆ…Õ.
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‰óıÿÿÿÿ8ú®Ğ”Ö.
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Õ–³8Ş–Ö.

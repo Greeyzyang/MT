@@ -1,0 +1,131 @@
+
+Y
+java:S2696¤"6Make the enclosing method "static" or remove this set.(Àäë˜ÿÿÿÿÿ8„’€£Õ.
+T
+java:S2696©"6Make the enclosing method "static" or remove this set.(›û„¹8¹Êõ£Õ.
+~
+java:S14503"aRemove the "title_unbind_start" field and declare it as a local variable in the relevant methods.(İ ç8†ÿòÔ.
+s	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½™·»şÿÿÿÿ8¹Êõ£Õ.
+s	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìñûûşÿÿÿÿ8¹Êõ£Õ.
+n	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷È÷™8¹Êõ£Õ.
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(»şñ8¹Êõ£Õ.
+n	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É“ÈÛ8¹Êõ£Õ.
+s	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìñûûşÿÿÿÿ8¹Êõ£Õ.
+s	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·íÕøÿÿÿÿ8¹Êõ£Õ.
+Y
+java:S2696¢"6Make the enclosing method "static" or remove this set.(ìâÍ’øÿÿÿÿ8„’€£Õ.
+S
+java:S2696n"6Make the enclosing method "static" or remove this set.(Î§˜ 8òÎ„šÖ.
+Y
+java:S2696¥"6Make the enclosing method "static" or remove this set.(”ê´Ùşÿÿÿÿ8„’€£Õ.
+^	java:S125Ü"<This block of commented-out lines of code should be removed.(œ§‡şÿÿÿÿ8¹Êõ£Õ.
+Q
+java:S1066x"/Merge this if statement with the enclosing one.(Ö ¥Îúÿÿÿÿ8¹Êõ£Õ.
+T
+java:S2696 "6Make the enclosing method "static" or remove this set.(…ôÃ†8„’€£Õ.
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(”¼Ü°ùÿÿÿÿ8¹Êõ£Õ.
+T
+java:S2696Ú"6Make the enclosing method "static" or remove this set.(Ğ¡…‡8¹Êõ£Õ.
+Š
+java:S1450,"mRemove the "title_notification_manual_back" field and declare it as a local variable in the relevant methods.(øüóñ8ºÑŒòÔ.
+Y
+java:S2696©"6Make the enclosing method "static" or remove this set.(ÀÌµøÿÿÿÿ8„’€£Õ.
+n	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÏÓğ8¹Êõ£Õ.
+‹
+java:S14505"iRemove the "test_notification_selected" field and declare it as a local variable in the relevant methods.(Ğ¼ŸÉıÿÿÿÿ8†ÿòÔ.
+?	java:S131Æ""Add a default case to this switch.(ºÖ8¹Êõ£Õ.
+Y
+java:S2696ş"6Make the enclosing method "static" or remove this set.(€¬ÑÍúÿÿÿÿ8¹Êõ£Õ.
+Y
+java:S2696¡"6Make the enclosing method "static" or remove this set.(ÀÙËŞÿÿÿÿÿ8„’€£Õ.
+n	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É“ÈÛ8¹Êõ£Õ.
+n	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É“ÈÛ8¹Êõ£Õ.
+F
+java:S1604ô"(Make this anonymous inner class a lambda(úÛİá8¹Êõ£Õ.
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(Øøì¦ÿÿÿÿÿ8¹Êõ£Õ.
+}
+java:S1450\"`Remove the "test_fail_records" field and declare it as a local variable in the relevant methods.(ñÒû8›åİ®Õ.
+Y
+java:S2696‚"6Make the enclosing method "static" or remove this set.(Ü…§©ÿÿÿÿÿ8¹Êõ£Õ.
+†
+java:S1450/"dRemove the "select_device_releate" field and declare it as a local variable in the relevant methods.(Ñ¶ƒâúÿÿÿÿ8†ÿòÔ.
+T
+java:S2696‘"6Make the enclosing method "static" or remove this set.(šÛä×8¹Êõ£Õ.
+Y
+java:S2696Ó"6Make the enclosing method "static" or remove this set.(ĞŞÌâùÿÿÿÿ8¹Êõ£Õ.
+s	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½™·»şÿÿÿÿ8¹Êõ£Õ.
+T
+java:S2696¨"6Make the enclosing method "static" or remove this set.(ıÎªš8„’€£Õ.
+|
+java:S1450."_Remove the "phone_system_num" field and declare it as a local variable in the relevant methods.(¹ï¢æ8†ÿòÔ.
+Y
+java:S2696¦"6Make the enclosing method "static" or remove this set.(Åøáÿÿÿÿÿ8„’€£Õ.
+T
+java:S2696“"6Make the enclosing method "static" or remove this set.(öŒÆ£8¹Êõ£Õ.
+x
+java:S1450@"[Remove the "send_hung_up" field and declare it as a local variable in the relevant methods.(ÈÓã§8ç…ØòÔ.
+C
+java:S1170c"!Make this final field static too.(œ¤ìúøÿÿÿÿ8·¸£Õ.
+{
+java:S1450-"^Remove the "phone_style_num" field and declare it as a local variable in the relevant methods.(…ñˆ»8†ÿòÔ.
+T
+java:S2696ñ"6Make the enclosing method "static" or remove this set.(Ê–ê8¯’‡šÖ.
+Y
+java:S2696œ"6Make the enclosing method "static" or remove this set.(Â“†ÿøÿÿÿÿ8¹Êõ£Õ.
+Y
+java:S2696Ÿ"6Make the enclosing method "static" or remove this set.(ïåİğÿÿÿÿÿ8„’€£Õ.
+u
+java:S3776Å"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ğ¸™áúÿÿÿÿ8ôá®Õ.
+s	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·íÕøÿÿÿÿ8¹Êõ£Õ.
+|
+java:S1450>"ZRemove the "send_answer" field and declare it as a local variable in the relevant methods.(êüçŠüÿÿÿÿ8ÅÍÎòÔ.
+u
+java:S1450<"XRemove the "send_call" field and declare it as a local variable in the relevant methods.(Ä“‹Ê8ÅÍÎòÔ.
+T
+java:S2696Š"6Make the enclosing method "static" or remove this set.(€³Ê¸8¹Êõ£Õ.
+T
+java:S2696ƒ"6Make the enclosing method "static" or remove this set.(±Œïï8¹Êõ£Õ.
+9
+java:S3626¾"Remove this redundant jump.(ûÁİ…8¹Êõ£Õ.
+d
+java:S1126É"AReplace this if-then-else statement by a single return statement.(¦‹¾øüÿÿÿÿ8¹Êõ£Õ.
+}
+java:S1450:"[Remove the "send_message" field and declare it as a local variable in the relevant methods.(ñ°äêÿÿÿÿÿ8àøÅòÔ.
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(ÇØ×’ÿÿÿÿÿ8„’€£Õ.
+`
+java:S2259£"BA "NullPointerException" could be thrown; "data" is nullable here.(ñÏÓğ8¹Êõ£Õ.
+T
+java:S2696†"6Make the enclosing method "static" or remove this set.(ÔÈ­Ğ8¹Êõ£Õ.
+z
+java:S1450B"XRemove the "stop_test" field and declare it as a local variable in the relevant methods.(±Öù…úÿÿÿÿ8ÿÛÛòÔ.
+Y
+java:S2696£"6Make the enclosing method "static" or remove this set.(ì­òØüÿÿÿÿ8„’€£Õ.
+T
+java:S2696…"6Make the enclosing method "static" or remove this set.(’•¾ç8¹Êõ£Õ.
+
+java:S14506"_Remove the "title_test_start" field and declare it as a local variable in the relevant methods.(Ï²·ùÿÿÿÿ8€…˜òÔ.
+s	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½™·»şÿÿÿÿ8¹Êõ£Õ.
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(Ñ±Ôâ8„’€£Õ.
+s	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·íÕøÿÿÿÿ8¹Êõ£Õ.
+E
+java:S1604s"(Make this anonymous inner class a lambda(öÜÏı8¹Êõ£Õ.
+Y
+java:S2696ª"6Make the enclosing method "static" or remove this set.(…ÎÇ‚øÿÿÿÿ8¹Êõ£Õ.
+s	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìñûûşÿÿÿÿ8¹Êõ£Õ.
+}
+java:S14508"`Remove the "send_notification" field and declare it as a local variable in the relevant methods.(×Ó­ô8Æá´òÔ.
+T
+java:S2696§"6Make the enclosing method "static" or remove this set.(„Âä³8„’€£Õ.
+Y
+java:S2696°"6Make the enclosing method "static" or remove this set.(Õ½ßùÿÿÿÿ8¹Êõ£Õ.
+T
+java:S2696œ"6Make the enclosing method "static" or remove this set.(Òœãü8„’€£Õ.
+
+java:S14502"_Remove the "title_bind_start" field and declare it as a local variable in the relevant methods.(¤€îÉúÿÿÿÿ8†ÿòÔ.
+n	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷È÷™8¹Êõ£Õ.
+n	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷È÷™8¹Êõ£Õ.

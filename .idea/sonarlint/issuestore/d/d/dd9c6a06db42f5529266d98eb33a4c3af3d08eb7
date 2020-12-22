@@ -1,0 +1,255 @@
+
+ƒ
+java:S11047"fMake SYNC_DATA_TO_WATCH_SUCCESS a static final constant or non-public and provide accessors if needed.(¾¡ÖĞ8µÛ¦Õ.
+W
+java:S1444I":Make this "public static UPDATE_SUCCESS_COUNT" field final(¶åÃ…8‚î¢éÖ.
+v
+java:S1104"YMake SEND_AUTO_ALL a static final constant or non-public and provide accessors if needed.(Ìªû8ÁŠ‚ùÔ.
+n
+java:S1104"XMake CONNECT_FAIL a static final constant or non-public and provide accessors if needed.(¥ÁŸË
+|
+java:S3008#"_Rename this field "SEND_MANUAL_CALL_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÖØÇ8¨ÎÁ Õ.
+X
+java:S1444E";Make this "public static SYNC_DATA_HEALTH_FAIL" field final(Ğó“ô8©›—¦Õ.
+z
+java:S1104"]Make SEND_AUTO_SUCCESS a static final constant or non-public and provide accessors if needed.(‡ŠŸ8åŞˆùÔ.
+Q
+java:S1444["4Make this "public static isUpdateSecond" field final(éÃ¢Ï8±—ÌçÖ.
+J
+java:S1444"/Make this "public static COUNT_ALL" field final(ÿàüŸøÿÿÿÿ
+_
+java:S1444"=Make this "public static SEND_MANUAL_MESSAGE_ALL" field final(Â‡‡†ùÿÿÿÿ8âº Õ.
+„
+java:S1104"gMake SEND_MANUAL_MESSAGE_SUCCESS a static final constant or non-public and provide accessors if needed.(™ƒ®8¤¿ Õ.
+
+java:S3008M"bRename this field "DOWNGRADE_SUCCESS_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëø¡‡8¿Ì£éÖ.
+V
+java:S1444?"9Make this "public static SYNC_DATA_TIME_FAIL" field final(ûñ”¤8½Ú“¦Õ.
+\
+java:S1444O":Make this "public static DOWNGRADE_FAIL_COUNT" field final(Ğ¦û²ÿÿÿÿÿ8¿Ì£éÖ.
+„
+java:S11041"gMake SEND_MANUAL_HUNG_UP_SUCCESS a static final constant or non-public and provide accessors if needed.(Üÿ­”8ıĞÆ Õ.
+\
+java:S1444U":Make this "public static isSyncDataAutoSecond" field final(ş•Ôèşÿÿÿÿ8âŒ™¥Õ.
+o
+java:S3008"TRename this field "COUNT_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿàüŸøÿÿÿÿ
+ƒ
+java:S1104Y"gMake isConnectedNOConfirmSsecond a static final constant or non-public and provide accessors if needed.(œç®T8ÇûÅ™Ö.
+y
+java:S3008"\Rename this field "SEND_AUTO_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ŠŸ8åŞˆùÔ.
+]
+java:S14447"@Make this "public static SYNC_DATA_TO_WATCH_SUCCESS" field final(¾¡ÖĞ8µÛ¦Õ.
+Z
+java:S1444;"8Make this "public static SYNC_DATA_TIME_ALL" field final(Â©•Èûÿÿÿÿ8ùş¦Õ.
+`
+java:S1444Q">Make this "public static isNotificationAutoSecond" field final(™¦Ô¾şÿÿÿÿ8üÍÅ Õ.
+j
+java:S1104"TMake isSecond a static final constant or non-public and provide accessors if needed.(¢ä«Ş
+ƒ
+java:S30085"aRename this field "SYNC_DATA_TO_WATCH_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ª‰¸ûÿÿÿÿ8ëÚ¦Õ.
+j
+java:S3008"TRename this field "SCAN_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Ó¹•
+„
+java:S1104="bMake SYNC_DATA_TIME_SUCCESS a static final constant or non-public and provide accessors if needed.(¶ÎçŒşÿÿÿÿ8ñŞ’¦Õ.
+u
+java:S3008"XRename this field "SEND_AUTO_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìªû8ÁŠ‚ùÔ.
+€
+java:S3008C"cRename this field "SYNC_DATA_HEALTH_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¡™„8Õ–¦Õ.
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÿö˜ 
+q
+java:S1104	"[Make CONNECT_SUCCESS a static final constant or non-public and provide accessors if needed.(¸‡ô¤
+s
+java:S1104"XMake SCAN_SUCCESS a static final constant or non-public and provide accessors if needed.(´ûÿ€ûÿÿÿÿ
+ƒ
+java:S1104'"aMake SEND_MANUAL_CALL_FAIL a static final constant or non-public and provide accessors if needed.(­ìĞÄÿÿÿÿÿ8ò¦Â Õ.
+|
+java:S3008I"_Rename this field "UPDATE_SUCCESS_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶åÃ…8‚î¢éÖ.
+^
+java:S1444)"<Make this "public static SEND_MANUAL_ANSWER_ALL" field final(Ãå™ùÿÿÿÿ8òöÃ Õ.
+`
+java:S1444W">Make this "public static isIsSyncDataManualSecond" field final(ª»®ñøÿÿÿÿ8ÒÆš¥Õ.
+Z
+java:S1444M"=Make this "public static DOWNGRADE_SUCCESS_COUNT" field final(Ëø¡‡8¿Ì£éÖ.
+ƒ
+java:S1104S"fMake isNotificationManualSecond a static final constant or non-public and provide accessors if needed.(–ñÜÉ8üÍÅ Õ.
+€
+java:S3008!"cRename this field "SEND_MANUAL_MESSAGE_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ƒş¿8ÛĞ¿ Õ.
+z
+java:S1104K"]Make UPDATE_FAIL_COUNT a static final constant or non-public and provide accessors if needed.(’©åÎ8è›£éÖ.
+ƒ
+java:S30081"fRename this field "SEND_MANUAL_HUNG_UP_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üÿ­”8ıĞÆ Õ.
+†
+java:S1104Q"dMake isNotificationAutoSecond a static final constant or non-public and provide accessors if needed.(™¦Ô¾şÿÿÿÿ8üÍÅ Õ.
+^
+java:S14445"<Make this "public static SYNC_DATA_TO_WATCH_ALL" field final( ª‰¸ûÿÿÿÿ8ëÚ¦Õ.
+[
+java:S1444!">Make this "public static SEND_MANUAL_MESSAGE_FAIL" field final(¦ƒş¿8ÛĞ¿ Õ.
+
+java:S11043"dMake SEND_MANUAL_HUNG_UP_FAIL a static final constant or non-public and provide accessors if needed.(·ä³œ8ıĞÆ Õ.
+‚
+java:S30087"eRename this field "SYNC_DATA_TO_WATCH_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¡ÖĞ8µÛ¦Õ.
+
+java:S1104"lMake SEND_MANUAL_NOTIFICATION_SUCCESS a static final constant or non-public and provide accessors if needed.(åÅğüÿÿÿÿ8øŒ¾ Õ.
+†
+java:S1104%"dMake SEND_MANUAL_CALL_SUCCESS a static final constant or non-public and provide accessors if needed.(†¾ÎÈúÿÿÿÿ8ò¦Â Õ.
+„
+java:S3008"gRename this field "SEND_MANUAL_NOTIFICATION_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¯Şø8âº Õ.
+^
+java:S1444"AMake this "public static SEND_MANUAL_MESSAGE_SUCCESS" field final(™ƒ®8¤¿ Õ.
+T
+java:S1444K"7Make this "public static UPDATE_FAIL_COUNT" field final(’©åÎ8è›£éÖ.
+
+java:S30089"bRename this field "SYNC_DATA_TO_WATCH_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™§¯¦8ùÜ¦Õ.
+
+java:S3008"kRename this field "SEND_MANUAL_NOTIFICATION_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÅğüÿÿÿÿ8øŒ¾ Õ.
+b
+java:S1444+"@Make this "public static SEND_MANUAL_ANSWER_SUCCESS" field final(ƒ—Öúÿÿÿÿ8ë¿Ä Õ.
+\
+java:S1444A":Make this "public static SYNC_DATA_HEALTH_ALL" field final(¸•ô÷úÿÿÿÿ8µ÷”¦Õ.
+k
+java:S1104"UMake SCAN_FAIL a static final constant or non-public and provide accessors if needed.(…Ó¹•
+…
+java:S1104"cMake SEND_MANUAL_MESSAGE_ALL a static final constant or non-public and provide accessors if needed.(Â‡‡†ùÿÿÿÿ8âº Õ.
+€
+java:S1104-"cMake SEND_MANUAL_ANSWER_FAIL a static final constant or non-public and provide accessors if needed.(êûÎÕ8ë¿Ä Õ.
+
+java:S3008A"_Rename this field "SYNC_DATA_HEALTH_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸•ô÷úÿÿÿÿ8µ÷”¦Õ.
+`
+java:S1444"CMake this "public static SEND_MANUAL_NOTIFICATION_FAIL" field final(Ñ˜‹í8øŒ¾ Õ.
+Z
+java:S14449"=Make this "public static SYNC_DATA_TO_WATCH_FAIL" field final(™§¯¦8ùÜ¦Õ.
+K
+java:S1444	"5Make this "public static CONNECT_SUCCESS" field final(¸‡ô¤
+|
+java:S1104"ZMake SEND_AUTO_FAIL a static final constant or non-public and provide accessors if needed.(’÷ÄÂıÿÿÿÿ8åŞˆùÔ.
+[
+java:S14443">Make this "public static SEND_MANUAL_HUNG_UP_FAIL" field final(·ä³œ8ıĞÆ Õ.
+€
+java:S1104M"cMake DOWNGRADE_SUCCESS_COUNT a static final constant or non-public and provide accessors if needed.(Ëø¡‡8¿Ì£éÖ.
+]
+java:S1444S"@Make this "public static isNotificationManualSecond" field final(–ñÜÉ8üÍÅ Õ.
+„
+java:S3008"bRename this field "SEND_MANUAL_MESSAGE_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â‡‡†ùÿÿÿÿ8âº Õ.
+‡
+java:S3008+"eRename this field "SEND_MANUAL_ANSWER_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ—Öúÿÿÿÿ8ë¿Ä Õ.
+
+java:S3008;"]Rename this field "SYNC_DATA_TIME_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â©•Èûÿÿÿÿ8ùş¦Õ.
+P
+java:S1444"3Make this "public static SEND_AUTO_ALL" field final(Ìªû8ÁŠ‚ùÔ.
+€
+java:S30083"cRename this field "SEND_MANUAL_HUNG_UP_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ä³œ8ıĞÆ Õ.
+ˆ
+java:S1104+"fMake SEND_MANUAL_ANSWER_SUCCESS a static final constant or non-public and provide accessors if needed.(ƒ—Öúÿÿÿÿ8ë¿Ä Õ.
+‚
+java:S1104U"`Make isSyncDataAutoSecond a static final constant or non-public and provide accessors if needed.(ş•Ôèşÿÿÿÿ8âŒ™¥Õ.
+
+java:S3008-"bRename this field "SEND_MANUAL_ANSWER_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êûÎÕ8ë¿Ä Õ.
+{
+java:S3008"YRename this field "SEND_AUTO_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’÷ÄÂıÿÿÿÿ8åŞˆùÔ.
+{
+java:S3008?"^Rename this field "SYNC_DATA_TIME_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûñ”¤8½Ú“¦Õ.
+]
+java:S1444Y"AMake this "public static isConnectedNOConfirmSsecond" field final(œç®T8ÇûÅ™Ö.
+†
+java:S1104W"dMake isIsSyncDataManualSecond a static final constant or non-public and provide accessors if needed.(ª»®ñøÿÿÿÿ8ÒÆš¥Õ.
+…
+java:S3008%"cRename this field "SEND_MANUAL_CALL_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¾ÎÈúÿÿÿÿ8ò¦Â Õ.
+E
+java:S1444"/Make this "public static SCAN_FAIL" field final(…Ó¹•
+Z
+java:S1444/"=Make this "public static SEND_MANUAL_HUNG_UP_ALL" field final( —Ç8ıĞÆ Õ.
+€
+java:S1104/"cMake SEND_MANUAL_HUNG_UP_ALL a static final constant or non-public and provide accessors if needed.( —Ç8ıĞÆ Õ.
+S
+java:S1444G"6Make this "public static UPDATE_ALL_COUNT" field final(Ø‡ß8Í©ôÖ.
+€
+java:S1104;"^Make SYNC_DATA_TIME_ALL a static final constant or non-public and provide accessors if needed.(Â©•Èûÿÿÿÿ8ùş¦Õ.
+_
+java:S1444"BMake this "public static SEND_MANUAL_NOTIFICATION_ALL" field final(Ğ¯Şø8âº Õ.
+H
+java:S1444"2Make this "public static CONNECT_FAIL" field final(¥ÁŸË
+
+java:S1104C"dMake SYNC_DATA_HEALTH_SUCCESS a static final constant or non-public and provide accessors if needed.(¯¡™„8Õ–¦Õ.
+„
+java:S1104)"bMake SEND_MANUAL_ANSWER_ALL a static final constant or non-public and provide accessors if needed.(Ãå™ùÿÿÿÿ8òöÃ Õ.
+m
+java:S3008"WRename this field "CONNECT_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁŸË
+ƒ
+java:S3008)"aRename this field "SEND_MANUAL_ANSWER_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãå™ùÿÿÿÿ8òöÃ Õ.
+‚
+java:S3008'"`Rename this field "SEND_MANUAL_CALL_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ìĞÄÿÿÿÿÿ8ò¦Â Õ.
+}
+java:S3008E"`Rename this field "SYNC_DATA_HEALTH_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğó“ô8©›—¦Õ.
+y
+java:S3008K"\Rename this field "UPDATE_FAIL_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’©åÎ8è›£éÖ.
+w
+java:S1104["ZMake isUpdateSecond a static final constant or non-public and provide accessors if needed.(éÃ¢Ï8±—ÌçÖ.
+`
+java:S1444%">Make this "public static SEND_MANUAL_CALL_SUCCESS" field final(†¾ÎÈúÿÿÿÿ8ò¦Â Õ.
+M
+java:S1444"2Make this "public static SCAN_SUCCESS" field final(´ûÿ€ûÿÿÿÿ
+V
+java:S1444"4Make this "public static SEND_AUTO_FAIL" field final(’÷ÄÂıÿÿÿÿ8åŞˆùÔ.
+ƒ
+java:S3008="aRename this field "SYNC_DATA_TIME_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÎçŒşÿÿÿÿ8ñŞ’¦Õ.
+
+java:S1104!"dMake SEND_MANUAL_MESSAGE_FAIL a static final constant or non-public and provide accessors if needed.(¦ƒş¿8ÛĞ¿ Õ.
+D
+java:S1444".Make this "public static isSecond" field final(¢ä«Ş
+„
+java:S11045"bMake SYNC_DATA_TO_WATCH_ALL a static final constant or non-public and provide accessors if needed.( ª‰¸ûÿÿÿÿ8ëÚ¦Õ.
+†
+java:S1104"iMake SEND_MANUAL_NOTIFICATION_FAIL a static final constant or non-public and provide accessors if needed.(Ñ˜‹í8øŒ¾ Õ.
+‚
+java:S1104O"`Make DOWNGRADE_FAIL_COUNT a static final constant or non-public and provide accessors if needed.(Ğ¦û²ÿÿÿÿÿ8¿Ì£éÖ.
+
+java:S3008/"bRename this field "SEND_MANUAL_HUNG_UP_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( —Ç8ıĞÆ Õ.
+…
+java:S1104"hMake SEND_MANUAL_NOTIFICATION_ALL a static final constant or non-public and provide accessors if needed.(Ğ¯Şø8âº Õ.
+]
+java:S1444'";Make this "public static SEND_MANUAL_CALL_FAIL" field final(­ìĞÄÿÿÿÿÿ8ò¦Â Õ.
+}
+java:S1104#"`Make SEND_MANUAL_CALL_ALL a static final constant or non-public and provide accessors if needed.(ôÖØÇ8¨ÎÁ Õ.
+c
+java:S1192"FDefine a constant instead of duplicating this literal "ideal" 7 times.(¢ä«Ş8ÔÃà™Ö.
+^
+java:S14441"AMake this "public static SEND_MANUAL_HUNG_UP_SUCCESS" field final(Üÿ­”8ıĞÆ Õ.
+~
+java:S1104E"aMake SYNC_DATA_HEALTH_FAIL a static final constant or non-public and provide accessors if needed.(Ğó“ô8©›—¦Õ.
+€
+java:S11049"cMake SYNC_DATA_TO_WATCH_FAIL a static final constant or non-public and provide accessors if needed.(™§¯¦8ùÜ¦Õ.
+^
+java:S1444="<Make this "public static SYNC_DATA_TIME_SUCCESS" field final(¶ÎçŒşÿÿÿÿ8ñŞ’¦Õ.
+h
+java:S1444"FMake this "public static SEND_MANUAL_NOTIFICATION_SUCCESS" field final(åÅğüÿÿÿÿ8øŒ¾ Õ.
+y
+java:S1104G"\Make UPDATE_ALL_COUNT a static final constant or non-public and provide accessors if needed.(Ø‡ß8Í©ôÖ.
+[
+java:S1444C">Make this "public static SYNC_DATA_HEALTH_SUCCESS" field final(¯¡™„8Õ–¦Õ.
+|
+java:S1104?"_Make SYNC_DATA_TIME_FAIL a static final constant or non-public and provide accessors if needed.(ûñ”¤8½Ú“¦Õ.
+r
+java:S3008"WRename this field "SCAN_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ûÿ€ûÿÿÿÿ
+W
+java:S1444#":Make this "public static SEND_MANUAL_CALL_ALL" field final(ôÖØÇ8¨ÎÁ Õ.
+p
+java:S1104"UMake COUNT_ALL a static final constant or non-public and provide accessors if needed.(ÿàüŸøÿÿÿÿ
+}
+java:S1104I"`Make UPDATE_SUCCESS_COUNT a static final constant or non-public and provide accessors if needed.(¶åÃ…8‚î¢éÖ.
+T
+java:S1444"7Make this "public static SEND_AUTO_SUCCESS" field final(‡ŠŸ8åŞˆùÔ.
+Z
+java:S1444-"=Make this "public static SEND_MANUAL_ANSWER_FAIL" field final(êûÎÕ8ë¿Ä Õ.
+p
+java:S3008	"ZRename this field "CONNECT_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸‡ô¤
+
+java:S3008O"_Rename this field "DOWNGRADE_FAIL_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¦û²ÿÿÿÿÿ8¿Ì£éÖ.
+‚
+java:S1104A"`Make SYNC_DATA_HEALTH_ALL a static final constant or non-public and provide accessors if needed.(¸•ô÷úÿÿÿÿ8µ÷”¦Õ.
+ƒ
+java:S3008"fRename this field "SEND_MANUAL_MESSAGE_SUCCESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ƒ®8¤¿ Õ.
+…
+java:S3008"hRename this field "SEND_MANUAL_NOTIFICATION_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ˜‹í8øŒ¾ Õ.
+x
+java:S3008G"[Rename this field "UPDATE_ALL_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‡ß8Í©ôÖ.

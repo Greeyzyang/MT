@@ -1,0 +1,48 @@
+
+r
+java:S1450("WRemove the "listView" field and declare it as a local variable in the relevant methods.(´‹Šáøÿÿÿÿ
+t
+java:S3776o"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(şñÊëÿÿÿÿÿ8úõØ™Ö.
+?	java:S131œ""Add a default case to this switch.(ºÖ8àÜ×™Ö.
+>
+java:S1604T"(Make this anonymous inner class a lambda(öÜÏı
+j
+java:S1192‚"GDefine a constant instead of duplicating this literal "worked" 7 times.(§ù›¢ûÿÿÿÿ8Òàñ™Ö.
+C
+java:S1604?"(Make this anonymous inner class a lambda(âÚå”şÿÿÿÿ
+q
+java:S1450$"VRemove the "iv_back" field and declare it as a local variable in the relevant methods.(ïóûÓıÿÿÿÿ
+<
+java:S11703"!Make this final field static too.(Ï¤ğ¿ùÿÿÿÿ
+>
+java:S1604|"(Make this anonymous inner class a lambda(¬ Å
+Y
+java:S2696Š"6Make the enclosing method "static" or remove this set.(“ğ½«ıÿÿÿÿ8›ª—ªÕ.
+R
+java:S2696‚"6Make the enclosing method "static" or remove this set.(§ù›¢ûÿÿÿÿ
+T
+java:S2696†"6Make the enclosing method "static" or remove this set.(Î§˜ 8€Ø¥Õ.
+K
+java:S1874y"0Remove this use of "getColor"; it is deprecated.(¦Š¢äıÿÿÿÿ
+T
+java:S2696Œ"6Make the enclosing method "static" or remove this set.(„ó†ø8àÜ×™Ö.
+I
+java:S10683".Remove this unused "REQUEST_OK" private field.(Ï¤ğ¿ùÿÿÿÿ
+W	java:S125€"<This block of commented-out lines of code should be removed.(É¸ÉÃıÿÿÿÿ
+V	java:S125*"<This block of commented-out lines of code should be removed.(úäşÿÿÿÿ
+q
+java:S1450&"[Remove the "iv_discovery" field and declare it as a local variable in the relevant methods.(ÍØ­Á
+Y
+java:S2696„"6Make the enclosing method "static" or remove this set.(ÿçòıÿÿÿÿ8û¥ºıÔ.
+t
+java:S3776O"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨Œşÿÿÿÿ8ªâ¸ıÔ.
+f
+java:S1301:"KReplace this "switch" statement by "if" statements to increase readability.(ıŞ³‹ùÿÿÿÿ
+Y
+java:S2696ˆ"6Make the enclosing method "static" or remove this set.(ì¸îúÿÿÿÿ8›ª—ªÕ.
+m
+java:S1192W"PDefine a constant instead of duplicating this literal "secondisworked" 14 times.(Ş×Å8Ü¾í™Ö.
+<
+java:S11701"!Make this final field static too.(É¢«İûÿÿÿÿ
+i
+java:S1301œ"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ8àÜ×™Ö.

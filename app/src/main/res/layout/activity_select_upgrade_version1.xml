@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/select_version_upgrade_releate1"
+    android:gravity="center"
+    android:background="@color/color_back_title">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择差分资源升级版本"
+        android:id="@+id/title_select_version1"
+        android:textColor="@color/color_text"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_version_upgrade_num1"
+        android:textColor="@color/color_text"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"/>
+</RelativeLayout>

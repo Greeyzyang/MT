@@ -1,0 +1,34 @@
+
+O
+java:S1128"-Remove this unused import 'android.Manifest'.(¦øïúÿÿÿÿ8¾¤ºÓÖ.
+X	java:S125'"<This block of commented-out lines of code should be removed.(ƒ¯€Ü8†’£ÔÖ.
+Q
+java:S1128"4Remove this unused import 'android.content.Context'.(©Ê‰è8ßÃÚÒÖ.
+L
+java:S3740l"/Provide the parametrized type for this generic.(ôŞ¼æ8ÚÖ¤’×.
+e
+java:S11921"HDefine a constant instead of duplicating this literal "-------" 5 times.(“Éó8«£¤’×.
+X	java:S125v"<This block of commented-out lines of code should be removed.(Ï¥÷¼8ÚÖ¤’×.
+U
+java:S1481u"3Remove this unused "activityThread" local variable.(‰Ÿ½Ùøÿÿÿÿ8ÚÖ¤’×.
+d
+java:S1854u"BRemove this useless assignment to local variable "activityThread".(‰Ÿ½Ùøÿÿÿÿ8ÚÖ¤’×.
+I
+java:S3011t",This accessibility update should be removed.(«Æªš8ÚÖ¤’×.
+X	java:S125S"<This block of commented-out lines of code should be removed.(æ¶¡ƒ8ö„¼ÓÖ.
+X	java:S125/"<This block of commented-out lines of code should be removed.(æ¶¡ƒ8ò¹»ÓÖ.
+V	java:S125Q"<This block of commented-out lines of code should be removed.(Á–»‚üÿÿÿÿ
+V	java:S125E"<This block of commented-out lines of code should be removed.(ÿ…ãøÿÿÿÿ
+I
+java:S3011m",This accessibility update should be removed.(ˆ¢°ø8ÚÖ¤’×.
+Q
+java:S3740r"/Provide the parametrized type for this generic.(ñ¡•æÿÿÿÿÿ8ÚÖ¤’×.
+V	java:S1259"<This block of commented-out lines of code should be removed.(ÎœÍºúÿÿÿÿ
+V	java:S125-"<This block of commented-out lines of code should be removed.(ÚıÛÖøÿÿÿÿ
+X	java:S125G"<This block of commented-out lines of code should be removed.(æ¶¡ƒ8¢Ï»ÓÖ.
+`
+java:S1128">Remove this unused import 'android.content.pm.PackageManager'.(€®¥õÿÿÿÿÿ8¾¤ºÓÖ.
+X	java:S125;"<This block of commented-out lines of code should be removed.(æ¶¡ƒ8¢Ï»ÓÖ.
+X	java:S125_"<This block of commented-out lines of code should be removed.(æ¶¡ƒ8ö„¼ÓÖ.
+J
+java:S3740k"/Provide the parametrized type for this generic.(ÈÍÌƒüÿÿÿÿ

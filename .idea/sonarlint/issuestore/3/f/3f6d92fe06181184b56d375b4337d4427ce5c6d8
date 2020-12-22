@@ -1,0 +1,138 @@
+
+?	java:S131Ú""Add a default case to this switch.(ºÖ8ØŞ©Õ.
+n	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÒ¤¢8ØŞ©Õ.
+K
+java:S1068P".Remove this unused "Type_watch" private field.(½º¹8¼ƒÚ©Õ.
+Y
+java:S2696Ä"6Make the enclosing method "static" or remove this set.(ŞÍÌÓşÿÿÿÿ8Â’¼«Õ.
+Š
+java:S14508"mRemove the "title_sync_data_start_to_watch" field and declare it as a local variable in the relevant methods.(şå×Ô8Ü¨Õ.
+m	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ–“8ØŞ©Õ.
+C
+java:S1170T"!Make this final field static too.(œ¤ìúøÿÿÿÿ8Ì†‘¥Õ.
+T
+java:S2696Ë"6Make the enclosing method "static" or remove this set.(Õ¼”’8Â’¼«Õ.
+d
+java:S2184•"FCast one of the operands of this multiplication operation to a "long".(¤Æÿ8ØŞ©Õ.
+d
+java:S2184‘"FCast one of the operands of this multiplication operation to a "long".(¤Æÿ8ØŞ©Õ.
+m	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ–“8ØŞ©Õ.
+d
+java:S1126Á"AReplace this if-then-else statement by a single return statement.(¦‹¾øüÿÿÿÿ8ØŞ©Õ.
+^	java:S125ü"<This block of commented-out lines of code should be removed.(œ§‡şÿÿÿÿ8ØŞ©Õ.
+k
+java:S1128"NRemove this unused import 'com.ryeex.ble.connector.callback.AsyncBleCallback'.(Ü¡ÜŞ8‹ÃÏ§Õ.
+Y
+java:S2696Ì"6Make the enclosing method "static" or remove this set.(Ö¤€Åÿÿÿÿÿ8Â’¼«Õ.
+s	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¸¥ãşÿÿÿÿ8ØŞ©Õ.
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(˜÷àø8¿ÛŠªÕ.
+{	java:S115R"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íŠşÿÿÿÿ8…ø£¨Õ.
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(¦¿º–8á·¶«Õ.
+Y
+java:S2696‡"6Make the enclosing method "static" or remove this set.(ì¸îúÿÿÿÿ8™ïˆšÖ.
+T
+java:S2696Å"6Make the enclosing method "static" or remove this set.(˜÷àø8Â’¼«Õ.
+~
+java:S14504"aRemove the "title_unbind_start" field and declare it as a local variable in the relevant methods.(İ ç8¿œìóÔ.
+Y
+java:S2696Æ"6Make the enclosing method "static" or remove this set.(¢›°áşÿÿÿÿ8Â’¼«Õ.
+p
+java:S3776ô"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(²‹Ã¢8ØŞ©Õ.
+k
+java:S1871–"MThis branch's code block is the same as the block for the branch on line 394.(”Á·8‘‰õÖ.
+O
+java:S1068R"-Remove this unused "Type_data" private field.(íŠşÿÿÿÿ8®©Õ.
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(¢›°áşÿÿÿÿ8¿ÛŠªÕ.
+d
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(¤Æÿ8ØŞ©Õ.
+s	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¸¥ãşÿÿÿÿ8ØŞ©Õ.
+F
+java:S1604Ù"(Make this anonymous inner class a lambda(úÛİá8ØŞ©Õ.
+u
+java:S3776Ù"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ğ¸™áúÿÿÿÿ8üÂè®Õ.
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(ŞÍÌÓşÿÿÿÿ8·˜´«Õ.
+T
+java:S2696”"6Make the enclosing method "static" or remove this set.(Õ¼”’8Òú·«Õ.
+{
+java:S1450,"^Remove the "phone_style_num" field and declare it as a local variable in the relevant methods.(…ñˆ»8¿ÛŠªÕ.
+U
+java:S1068Z"3Remove this unused "isHeightsuccess" private field.(ÇÊ„Ôúÿÿÿÿ8®©Õ.
+Y
+java:S2696’"6Make the enclosing method "static" or remove this set.(•”çûÿÿÿÿ8Œİµ«Õ.
+}
+java:S1450M"`Remove the "test_fail_records" field and declare it as a local variable in the relevant methods.(ñÒû8ÛÔæ®Õ.
+n	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÏÓğ8ØŞ©Õ.
+
+java:S1450;"dRemove the "title_unbind_end_test" field and declare it as a local variable in the relevant methods.(‹·Ìó8ÁÈƒ¦Õ.
+Y
+java:S2696‘"6Make the enclosing method "static" or remove this set.(Âßº¡ÿÿÿÿÿ8Œİµ«Õ.
+m
+java:S1301f"KReplace this "switch" statement by "if" statements to increase readability.(ıŞ³‹ùÿÿÿÿ8‹Èò©Õ.
+d
+java:S2184‰"FCast one of the operands of this multiplication operation to a "long".(¤Æÿ8ØŞ©Õ.
+v	java:S115P"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½º¹8‚Œ¡¨Õ.
+Y
+java:S2696É"6Make the enclosing method "static" or remove this set.(•”çûÿÿÿÿ8Â’¼«Õ.
+n	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÒ¤¢8ØŞ©Õ.
+C
+java:S1170W"!Make this final field static too.(éÜÅšıÿÿÿÿ8™´«¥Õ.
+S
+java:S2696t"6Make the enclosing method "static" or remove this set.(Ä•Š8¿ÛŠªÕ.
+9
+java:S3626´"Remove this redundant jump.(ûÁİ…8ØŞ©Õ.
+m	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ–“8ØŞ©Õ.
+€
+java:S1450+"cRemove the "title_sync_data_back" field and declare it as a local variable in the relevant methods.(Ãâ«Ğ8ÄÏêóÔ.
+d
+java:S2184™"FCast one of the operands of this multiplication operation to a "long".(¤Æÿ8ØŞ©Õ.
+F
+java:S1604Œ"(Make this anonymous inner class a lambda(öÜÏı8ØŞ©Õ.
+`
+java:S1128"CRemove this unused import 'com.ryeex.ble.connector.error.BleError'.(ğä¶™8‹ÃÏ§Õ.
+|
+java:S1450-"_Remove the "phone_system_num" field and declare it as a local variable in the relevant methods.(¹ï¢æ8¿œìóÔ.
+n	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÒ¤¢8ØŞ©Õ.
+O
+java:S1068Q"-Remove this unused "Type_time" private field.(´Åßûÿÿÿÿ8¼ƒÚ©Õ.
+`
+java:S2259Õ"BA "NullPointerException" could be thrown; "data" is nullable here.(ñÏÓğ8ØŞ©Õ.
+Y
+java:S2696Î"6Make the enclosing method "static" or remove this set.(ãˆ££ıÿÿÿÿ8¿ÛŠªÕ.
+p
+java:S1871’"MThis branch's code block is the same as the block for the branch on line 394.(ÛÕôìÿÿÿÿÿ8ÈôôÖ.
+T
+java:S2696Ç"6Make the enclosing method "static" or remove this set.(¦¿º–8Â’¼«Õ.
+P
+java:S1068["3Remove this unused "isWeightsuccess" private field.(Èı¢€8®©Õ.
+u
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‰²”Ëüÿÿÿÿ8ØŞ©Õ.
+s	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¸¥ãşÿÿÿÿ8ØŞ©Õ.
+a
+java:S1128"ERemove this unused import 'com.ryeex.ble.common.model.entity.Weight'.(Ê´Š8Ñ¤Ê§Õ.
+k
+java:S1871"MThis branch's code block is the same as the block for the branch on line 394.(ÛÙƒ8†ÕôÖ.
+Y
+java:S2696•"6Make the enclosing method "static" or remove this set.(Ö¤€Åÿÿÿÿÿ8Òú·«Õ.
+^	java:S125Ô"<This block of commented-out lines of code should be removed.(ÒïÅªúÿÿÿÿ8Ÿ«ş©Õ.
+a
+java:S1128"ERemove this unused import 'com.ryeex.ble.common.model.entity.Height'.(ù‘ï68Ñ¤Ê§Õ.
+
+java:S14503"_Remove the "title_bind_start" field and declare it as a local variable in the relevant methods.(¤€îÉúÿÿÿÿ8¿œìóÔ.
+T
+java:S2696“"6Make the enclosing method "static" or remove this set.(İÌ¨õ8Òú·«Õ.
+{	java:S115Q"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´Åßûÿÿÿÿ8È¥¢¨Õ.
+R
+java:S1066‘"/Merge this if statement with the enclosing one.(Ö ¥Îúÿÿÿÿ8ØŞ©Õ.
+Y
+java:S2696Ö"6Make the enclosing method "static" or remove this set.(Ş¤æ„ÿÿÿÿÿ8Ç‡ŒšÖ.
+†
+java:S1450."dRemove the "select_device_releate" field and declare it as a local variable in the relevant methods.(Ñ¶ƒâúÿÿÿÿ8¿œìóÔ.
+Y
+java:S2696È"6Make the enclosing method "static" or remove this set.(Âßº¡ÿÿÿÿÿ8Â’¼«Õ.
+Y	java:S125©"<This block of commented-out lines of code should be removed.(²³·Á8³²û©Õ.
+T
+java:S2696Ê"6Make the enclosing method "static" or remove this set.(İÌ¨õ8Â’¼«Õ.

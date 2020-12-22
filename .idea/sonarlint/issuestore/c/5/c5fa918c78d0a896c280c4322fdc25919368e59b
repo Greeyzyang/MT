@@ -1,0 +1,102 @@
+
+T
+java:S2696Ã"6Make the enclosing method "static" or remove this set.(Ä•Š8ÿˆˆ¨Ö.
+T
+java:S2696—"6Make the enclosing method "static" or remove this set.(”Ñ®°8×¾¸¨Ö.
+9
+java:S3626û"Remove this redundant jump.(ûÁİ…8™ƒªÖ.
+d
+java:S2142ì"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8™ƒªÖ.
+<
+java:S1170V"!Make this final field static too.(ä›œ˜ûÿÿÿÿ
+T
+java:S2696é"6Make the enclosing method "static" or remove this set.(ÆÉµ®8™ƒªÖ.
+u
+java:S14501"_Remove the "phone_system_num" field and declare it as a local variable in the relevant methods.(¹ï¢æ
+i
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(äÚ­¥şÿÿÿÿ8™ƒªÖ.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(È¬|8ÿˆˆ¨Ö.
+X	java:S125¤"<This block of commented-out lines of code should be removed.(Ø¹•q8ÿˆˆ¨Ö.
+T
+java:S2696í"6Make the enclosing method "static" or remove this set.(È©“8ÿˆˆ¨Ö.
+p
+java:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(²‹Ã¢8™ƒªÖ.
+C
+java:S1170{"!Make this final field static too.(Ï¤ğ¿ùÿÿÿÿ8ÿˆˆ¨Ö.
+}
+java:S1450N"`Remove the "test_fail_records" field and declare it as a local variable in the relevant methods.(ñÒû8ÿˆˆ¨Ö.
+€
+java:S14509"^Remove the "phone_stop_test" field and declare it as a local variable in the relevant methods.(îêÿÿÿÿÿ8ÿˆˆ¨Ö.
+Y
+java:S1117›";Rename "isScan" which hides the field declared at line 102.(ı²³8ÿˆˆ¨Ö.
+C
+java:S1170X"!Make this final field static too.(ş¶Âüÿÿÿÿ8ÿˆˆ¨Ö.
+t
+java:S14500"^Remove the "phone_style_num" field and declare it as a local variable in the relevant methods.(…ñˆ»
+?	java:S131³""Add a default case to this switch.(ºÖ8™ƒªÖ.
+<
+java:S1170T"!Make this final field static too.(«ÉÙÌıÿÿÿÿ
+`
+java:S2259î"BA "NullPointerException" could be thrown; "data" is nullable here.(ñÏÓğ8™ƒªÖ.
+o
+java:S1450/"YRemove the "title_back" field and declare it as a local variable in the relevant methods.(°’¬²
+p
+java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Š¶–ß8™ƒªÖ.
+u
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ğ¸™áúÿÿÿÿ8™ƒªÖ.
+_
+java:S1854‰"ARemove this useless assignment to local variable "scannedDevice".(˜ÊÙõ8ÿˆˆ¨Ö.
+7
+java:S1170U"!Make this final field static too.(ÏÂÏØ
+6
+java:S1170W"!Make this final field static too.(á÷‚
+u
+java:S3776Ğ"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¨Œşÿÿÿÿ8ğšõ¨Ö.
+T
+java:S2696ÿ"6Make the enclosing method "static" or remove this set.(ÎŸÖº8™ƒªÖ.
+R
+java:S1068`"0Remove this unused "isLoginFrist" private field.(Ìï¶ƒıÿÿÿÿ8ÿˆˆ¨Ö.
+M
+java:S1068d"0Remove this unused "isLoginError" private field.(éŸåÏ8ÿˆˆ¨Ö.
+9
+java:S3626“"Remove this redundant jump.(ûÁİ…8™ƒªÖ.
+R
+java:S1066ñ"/Merge this if statement with the enclosing one.(«£Ø°şÿÿÿÿ8™ƒªÖ.
+Y	java:S107±"<Method has 8 parameters, which is greater than 7 authorized.(¢ÌÅ8™ƒªÖ.
+
+java:S1450o"]Remove the "endConnectTime" field and declare it as a local variable in the relevant methods.(÷ñóÄúÿÿÿÿ8ÿˆˆ¨Ö.
+T
+java:S2696Ù"6Make the enclosing method "static" or remove this set.(ì­¥8™ƒªÖ.
+T
+java:S2696Ô"6Make the enclosing method "static" or remove this set.(„ó†ø8ÿˆˆ¨Ö.
+n	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÏÓğ8™ƒªÖ.
+F
+java:S1185¸"(Remove this method to simply inherit it.(Ù«µ§8™ƒªÖ.
+M
+java:S2696ë"6Make the enclosing method "static" or remove this set.(ò·ê¿
+{
+java:S14508"`Remove the "phone_start_start" field and declare it as a local variable in the relevant methods.(Ü¨ù×øÿÿÿÿ
+X	java:S125¡"<This block of commented-out lines of code should be removed.(şŒù8ÿˆˆ¨Ö.
+R
+java:S2696ì"6Make the enclosing method "static" or remove this set.(èºŒûÿÿÿÿ
+d
+java:S1126à"AReplace this if-then-else statement by a single return statement.(¦‹¾øüÿÿÿÿ8™ƒªÖ.
+Y
+java:S2696ê"6Make the enclosing method "static" or remove this set.(óÚø‰ÿÿÿÿÿ8çšæ¦Ö.
+†
+java:S14502"dRemove the "select_device_releate" field and declare it as a local variable in the relevant methods.(Ñ¶ƒâúÿÿÿÿ8ÿˆˆ¨Ö.
+F
+java:S1604Ù"(Make this anonymous inner class a lambda(öÜÏı8ÿˆˆ¨Ö.
+Y
+java:S2696ˆ"6Make the enclosing method "static" or remove this set.(ÊæÌ‘şÿÿÿÿ8™ƒªÖ.
+p
+java:S3776±"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¢ÌÅ8™ƒªÖ.
+b
+java:S1068X"@Remove this unused "MSG_GET_LOGIN_FIRST_LOGINOUT" private field.(ş¶Âüÿÿÿÿ8ÿˆˆ¨Ö.
+u
+java:S14507"_Remove the "phone_start_scan" field and declare it as a local variable in the relevant methods.(ØöÎ¼
+T
+java:S2696È"6Make the enclosing method "static" or remove this set.(ì±­õ8™ƒªÖ.
+K
+java:S1604à"(Make this anonymous inner class a lambda(á†áıÿÿÿÿ8ğšõ¨Ö.

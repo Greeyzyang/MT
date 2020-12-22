@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_back_title"
+    android:orientation="vertical"
+    tools:context="com.example.connectapplication.SelectDeviceActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/select_back"
+        android:text="@string/connect_back"
+        android:textSize="15sp"
+        android:textColor="@color/color_text"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/connect_discover"
+        android:text="@string/connect_phone_test_discover"
+        android:textSize="15sp"
+        android:textColor="@color/color_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:gravity="center"/>
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divid_view"
+        android:background="@color/color_divider_bg"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ble_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>

@@ -1,0 +1,28 @@
+
+Œ
+java:S1450"jRemove the "blueToothNoConfirmConnected" field and declare it as a local variable in the relevant methods.(¡üö¯úÿÿÿÿ8ÿíù“Ö.
+‡
+java:S1450 "eRemove the "syncDataBlueTooth_auto" field and declare it as a local variable in the relevant methods.(„ÉÍ¸ûÿÿÿÿ8ÎÜé°Ô.
+e
+java:S2095|"IUse try-with-resources or close this "InputStream" in a "finally" clause.(Ëö€)8ÉÕ÷ÿÖ.
+Q
+java:S3740i"/Provide the parametrized type for this generic.(‚šÏéıÿÿÿÿ8ÉÕ÷ÿÖ.
+v
+java:S1450"YRemove the "title_back" field and declare it as a local variable in the relevant methods.(¦÷ÏÅ8×ĞÚ¯Ô.
+}
+java:S1450"`Remove the "blueToothConnecet" field and declare it as a local variable in the relevant methods.(¤Êˆ8×ĞÚ¯Ô.
+J
+java:S1604."(Make this anonymous inner class a lambda(‰¦Ô³øÿÿÿÿ8°»‰ñÖ.
+„
+java:S1450"gRemove the "notification_manual_test" field and declare it as a local variable in the relevant methods.(€Àú¶8õâê°Ô.
+l
+java:S2095ƒ"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ŠÀø¯8ÉÕ÷ÿÖ.
+‰
+java:S1450""gRemove the "syncDataBlueTooth_manual" field and declare it as a local variable in the relevant methods.(ÛÕ†Šşÿÿÿÿ8„“ì°Ô.
+‡
+java:S1450"eRemove the "notification_auto_test" field and declare it as a local variable in the relevant methods.(ÙÜ™Ñÿÿÿÿÿ8ÿíù“Ö.
+>	java:S131M""Add a default case to this switch.(ºÖ8ÉÕ÷ÿÖ.
+x
+java:S1450$"[Remove the "update_title" field and declare it as a local variable in the relevant methods.(ˆÌ’‘8ü«ÖíÖ.
+W
+java:S1141w"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ÉÕ÷ÿÖ.

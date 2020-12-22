@@ -1,0 +1,17 @@
+
+{
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(»ò©Ÿúÿÿÿÿ8Üˆ“ñÖ.
+’
+java:S1319$"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(áË“˜þÿÿÿÿ8Üˆ“ñÖ.
+q
+java:S2095<"OUse try-with-resources or close this "DigestInputStream" in a "finally" clause.(…èêûÿÿÿÿ8¿í–úÖ.
+a
+java:S2147T"DCombine this catch with the one at line 80, which has the same body.(ï­£Ä8¥Š–úÖ.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(×¼­Æ8¦Ÿ›ñÖ.
+o
+java:S2095;"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÓÐÊýþÿÿÿÿ8¿í–úÖ.
+`
+java:S2147R"DCombine this catch with the one at line 80, which has the same body.(ÿÒ„p8¥Š–úÖ.
+J
+java:S4425M"(Use String.format( "%02X", ...) instead.(¼í¿®øÿÿÿÿ8¥Š–úÖ.

@@ -1,0 +1,14 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(œÄøñ
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(¡¬÷öûÿÿÿÿ
+>	java:S108)")Either remove or fill this block of code.(”ı¾
+1
+java:S36261"Remove this redundant jump.(ûÁİ…
+h
+java:S3776_"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(®ı¡½
+?	java:S108”")Either remove or fill this block of code.(”ı¾
+?	java:S108 ")Either remove or fill this block of code.(”ı¾
+V	java:S1254"<This block of commented-out lines of code should be removed.(æıã›üÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(²×„òúÿÿÿÿ

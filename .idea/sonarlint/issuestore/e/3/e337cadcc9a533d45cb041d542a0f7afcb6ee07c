@@ -1,0 +1,111 @@
+
+
+java:S1450z"]Remove the "endConnectTime" field and declare it as a local variable in the relevant methods.(÷ñóÄúÿÿÿÿ8”àÌÖ.
+C
+java:S1170["!Make this final field static too.(ä›œ˜ûÿÿÿÿ8Åœı­Õ.
+u
+java:S3776î"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¨Œşÿÿÿÿ8”àÌÖ.
+Y	java:S125¿"<This block of commented-out lines of code should be removed.(ÇäºÌ8ÂñËæÖ.
+€
+java:S1450>"^Remove the "phone_stop_test" field and declare it as a local variable in the relevant methods.(îêÿÿÿÿÿ8Åœı­Õ.
+C
+java:S1170]"!Make this final field static too.(ş¶Âüÿÿÿÿ8Åœı­Õ.
+d
+java:S1126ú"AReplace this if-then-else statement by a single return statement.(¦‹¾øüÿÿÿÿ8ÂñËæÖ.
+u
+java:S3776Ì"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ğ¸™áúÿÿÿÿ8ÂñËæÖ.
+T
+java:S2696¦"6Make the enclosing method "static" or remove this set.(”Ñ®°8Ú½“ÑÖ.
+Y
+java:S2696ı"6Make the enclosing method "static" or remove this set.(èÏ×‚ıÿÿÿÿ8ÂñËæÖ.
+|
+java:S1450<"_Remove the "phone_start_scan" field and declare it as a local variable in the relevant methods.(ØöÎ¼8Åœı­Õ.
+‚
+java:S1450="`Remove the "phone_start_start" field and declare it as a local variable in the relevant methods.(Ü¨ù×øÿÿÿÿ8Åœı­Õ.
+Y
+java:S2696ò"6Make the enclosing method "static" or remove this set.(§ù›¢ûÿÿÿÿ8”àÌÖ.
+|
+java:S14506"_Remove the "phone_system_num" field and declare it as a local variable in the relevant methods.(¹ï¢æ8Åœı­Õ.
+S
+java:S2696ó"6Make the enclosing method "static" or remove this set.(½×ãI8ÂñËæÖ.
+9
+java:S3626É"Remove this redundant jump.(ûÁİ…8ÂñËæÖ.
+d
+java:S2142‰"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÂñËæÖ.
+T
+java:S2696•"6Make the enclosing method "static" or remove this set.(ÆÉµ®8ÂñËæÖ.
+9
+java:S3626¿"Remove this redundant jump.(ûÁİ…8ÂñËæÖ.
+K
+java:S1604ı"(Make this anonymous inner class a lambda(á†áıÿÿÿÿ8”àÌÖ.
+†
+java:S14507"dRemove the "select_device_releate" field and declare it as a local variable in the relevant methods.(Ñ¶ƒâúÿÿÿÿ8Åœı­Õ.
+^	java:S125Â"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ÂñËæÖ.
+}
+java:S1450S"`Remove the "test_fail_records" field and declare it as a local variable in the relevant methods.(ñÒû8üİ‰®Õ.
+?	java:S131Í""Add a default case to this switch.(ºÖ8ÂñËæÖ.
+`
+java:S2259ˆ"BA "NullPointerException" could be thrown; "data" is nullable here.(ñÏÓğ8ÂñËæÖ.
+Q
+java:S1128"4Remove this unused import 'android.content.Context'.(©Ê‰è8¹Òµ®Õ.
+Y
+java:S2696˜"6Make the enclosing method "static" or remove this set.(èºŒûÿÿÿÿ8±ÙñÂÕ.
+R
+java:S1066"/Merge this if statement with the enclosing one.(ããëŸıÿÿÿÿ8ÂñËæÖ.
+T
+java:S2696Â"6Make the enclosing method "static" or remove this set.(Ä•Š8”àÌÖ.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(È¬|8”àÌÖ.
+D
+java:S1170Š"!Make this final field static too.(Ï¤ğ¿ùÿÿÿÿ8”àÌÖ.
+F
+java:S1604÷"(Make this anonymous inner class a lambda(öÜÏı8”àÌÖ.
+Y
+java:S2696 "6Make the enclosing method "static" or remove this set.(ÊæÌ‘şÿÿÿÿ8ÂñËæÖ.
+p
+java:S3776–"RRefactor this method to reduce its Cognitive Complexity from 95 to the 15 allowed.(²‹Ã¢8ÂñËæÖ.
+{
+java:S14505"^Remove the "phone_style_num" field and declare it as a local variable in the relevant methods.(…ñˆ»8Åœı­Õ.
+p
+java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¢ÌÅ8ÂñËæÖ.
+U
+java:S1128	"3Remove this unused import 'android.os.Environment'.(É¿‹Ãûÿÿÿÿ8¹Òµ®Õ.
+T
+java:S2696é"6Make the enclosing method "static" or remove this set.(ÎŸÖº8ÂñËæÖ.
+F
+java:S1185ğ"(Remove this method to simply inherit it.(Ù«µ§8ÂñËæÖ.
+i
+java:S2184Ô"FCast one of the operands of this multiplication operation to a "long".(äÚ­¥şÿÿÿÿ8ÂñËæÖ.
+k
+java:S1128 "NRemove this unused import 'com.ryeex.ble.connector.callback.AsyncBleCallback'.(Ü¡ÜŞ8Ğ¹³®Õ.
+p
+java:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Š¶–ß8ÂñËæÖ.
+Y
+java:S2696–"6Make the enclosing method "static" or remove this set.(óÚø‰ÿÿÿÿÿ8èäÂ¦Ö.
+X	java:S125Û"<This block of commented-out lines of code should be removed.(±ù²8ÂñËæÖ.
+`
+java:S1128!"CRemove this unused import 'com.ryeex.ble.connector.error.BleError'.(ğä¶™8Ğ¹³®Õ.
+Y
+java:S2696®"6Make the enclosing method "static" or remove this set.(ÊæÌ‘şÿÿÿÿ8ÂñËæÖ.
+Y
+java:S1117­";Rename "isScan" which hides the field declared at line 124.(ı²³8”àÌÖ.
+Y	java:S107İ"<Method has 8 parameters, which is greater than 7 authorized.(¢ÌÅ8ÂñËæÖ.
+Y	java:S125¿"<This block of commented-out lines of code should be removed.(ÂøÈÛ8ÂñËæÖ.
+T
+java:S2696š"6Make the enclosing method "static" or remove this set.(ÎŸÖº8ÂñËæÖ.
+v
+java:S14504"YRemove the "title_back" field and declare it as a local variable in the relevant methods.(°’¬²8Åœı­Õ.
+n	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÏÓğ8ÂñËæÖ.
+>
+java:S1170Z"!Make this final field static too.(ÏÂÏØ8Åœı­Õ.
+K
+java:S1185õ"(Remove this method to simply inherit it.(èüù±ùÿÿÿÿ8ÂñËæÖ.
+T
+java:S2696™"6Make the enclosing method "static" or remove this set.(È©“8áÅÒÏÖ.
+=
+java:S1170\"!Make this final field static too.(á÷‚8Åœı­Õ.
+^	java:S125Ô"<This block of commented-out lines of code should be removed.(¢“¡‚şÿÿÿÿ8ó’µÍÖ.
+T
+java:S2696—"6Make the enclosing method "static" or remove this set.(ò·ê¿8±ÙñÂÕ.
+C
+java:S1170Y"!Make this final field static too.(«ÉÙÌıÿÿÿÿ8Åœı­Õ.

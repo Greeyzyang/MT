@@ -1,0 +1,138 @@
+
+S
+java:S2696Ï"6Make the enclosing method "static" or remove this set.(ÑŞÛ'8é‹Œ Õ.
+}
+java:S3008Q"[Rename this field "APP_NOTIFICATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¯¾šüÿÿÿÿ8šÙ†œÕ.
+Y
+java:S2696‰"6Make the enclosing method "static" or remove this set.(ÖĞ Äúÿÿÿÿ8²×€œÕ.
+j
+java:S1192R"HDefine a constant instead of duplicating this literal "call_ok" 4 times.(©ãÄÂÿÿÿÿÿ8¿ÙÄšÕ.
+C
+java:S1170U"!Make this final field static too.(ö©ÕÌşÿÿÿÿ8ÕêˆøÔ.
+Y
+java:S2696ó"6Make the enclosing method "static" or remove this set.(¡„¹Œıÿÿÿÿ8é‹Œ Õ.
+H
+java:S1068P"+Remove this unused "HUNG_UP" private field.(èÌš8²×€œÕ.
+9
+java:S3626®"Remove this redundant jump.(ûÁİ…8é‹Œ Õ.
+Y	java:S125É"<This block of commented-out lines of code should be removed.(ËÒíç8²×€œÕ.
+Y
+java:S2696Ã"6Make the enclosing method "static" or remove this set.(öŠ¼ûÿÿÿÿ8¶÷ü™Ö.
+^	java:S125«"<This block of commented-out lines of code should be removed.(´×†şÿÿÿÿ8²×€œÕ.
+y
+java:S1192ƒ"VDefine a constant instead of duplicating this literal "playCountr--notifi---" 4 times.(òØÂÃüÿÿÿÿ8Ú«ÿ›Õ.
+C
+java:S1170\"!Make this final field static too.(İ•‡íÿÿÿÿÿ8“Èé€Õ.
+^	java:S125Â"<This block of commented-out lines of code should be removed.(ß¤¶ıÿÿÿÿ8é‹Œ Õ.
+ˆ
+java:S1450<"fRemove the "title_send_notification" field and declare it as a local variable in the relevant methods.(•šà³ıÿÿÿÿ8¼†™ñÔ.
+T
+java:S2696“"6Make the enclosing method "static" or remove this set.(«æ‚ã8²×€œÕ.
+{
+java:S14500"^Remove the "phone_style_num" field and declare it as a local variable in the relevant methods.(…ñˆ»8éìğÔ.
+d
+java:S1126¹"AReplace this if-then-else statement by a single return statement.(¦‹¾øüÿÿÿÿ8é‹Œ Õ.
+Y
+java:S2696ˆ"6Make the enclosing method "static" or remove this set.(í¬Éáùÿÿÿÿ8²×€œÕ.
+Y
+java:S2696Ú"6Make the enclosing method "static" or remove this set.(ÿçòıÿÿÿÿ8ë€ú™Ö.
+u
+java:S3776¡"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ğ¸™áúÿÿÿÿ8òç Õ.
+C
+java:S1170["!Make this final field static too.(Ô­ğ¹úÿÿÿÿ8…úÔ.
+S
+java:S2696à"6Make the enclosing method "static" or remove this set.(ÑŞÛ'8é‹Œ Õ.
+W
+java:S1068N"5Remove this unused "notification_type" private field.(Ñò±íøÿÿÿÿ8²×€œÕ.
+T
+java:S2696’"6Make the enclosing method "static" or remove this set.(Îğì¢8é‹Œ Õ.
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÙÔ¼8é‹Œ Õ.
+~
+java:S14508"aRemove the "title_unbind_start" field and declare it as a local variable in the relevant methods.(İ ç8î„÷ğÔ.
+
+java:S1450>"lRemove the "title_send_phone_call_hung_up" field and declare it as a local variable in the relevant methods.(óÎÓùÿÿÿÿ8ö‚ñÔ.
+~
+java:S1192ô"[Define a constant instead of duplicating this literal "sendNotification onSuccess" 3 times.(Á¨¹ñÿÿÿÿÿ8é‹Œ Õ.
+b
+java:S3398Ñ"?Move this method into the anonymous class declared at line 143.(Ú€íÇıÿÿÿÿ8é‹Œ Õ.
+•
+java:S1450?"sRemove the "title_send_phone_call_answer_hung_up" field and declare it as a local variable in the relevant methods.(ÑâÕ”ÿÿÿÿÿ8ğüŸñÔ.
+u
+java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ñ¶¦Öùÿÿÿÿ8é‹Œ Õ.
+ƒ
+java:S1450="aRemove the "title_send_message" field and declare it as a local variable in the relevant methods.(‡şÊêúÿÿÿÿ8Ò²œñÔ.
+^	java:S125•"<This block of commented-out lines of code should be removed.(´×†şÿÿÿÿ8²×€œÕ.
+k
+java:S1192÷"MDefine a constant instead of duplicating this literal "call_hung_up" 3 times.(äÒÏë8é‹Œ Õ.
+b
+java:S3398—"?Move this method into the anonymous class declared at line 103.(¼æ®¹ÿÿÿÿÿ8é‹Œ Õ.
+T
+java:S2696„"6Make the enclosing method "static" or remove this set.(Îğì¢8é‹Œ Õ.
+S
+java:S2696}"6Make the enclosing method "static" or remove this set.(«æ‚ã8²×€œÕ.
+†
+java:S14502"dRemove the "select_device_releate" field and declare it as a local variable in the relevant methods.(Ñ¶ƒâúÿÿÿÿ8éìğÔ.
+^	java:S125Â"<This block of commented-out lines of code should be removed.(´×†şÿÿÿÿ8²×€œÕ.
+‹
+java:S1450:"iRemove the "test_notification_selected" field and declare it as a local variable in the relevant methods.(Ğ¼ŸÉıÿÿÿÿ8ùÄ‘ñÔ.
+F
+java:S1604ß"(Make this anonymous inner class a lambda(öÜÏı8Ú«ÿ›Õ.
+i
+java:S2184­"FCast one of the operands of this multiplication operation to a "long".(Ñğ™úÿÿÿÿ8Ú«ÿ›Õ.
+}
+java:S1450L"`Remove the "test_fail_records" field and declare it as a local variable in the relevant methods.(ñÒû8£ÜÉ®Õ.
+T
+java:S2696´"6Make the enclosing method "static" or remove this set.(Îğì¢8é‹Œ Õ.
+T
+java:S2696À"6Make the enclosing method "static" or remove this set.(«æ‚ã8²×€œÕ.
+T
+java:S2696ç"6Make the enclosing method "static" or remove this set.(Îğì¢8é‹Œ Õ.
+F
+java:S1604Æ"(Make this anonymous inner class a lambda(úÛİá8é‹Œ Õ.
+|
+java:S14501"_Remove the "phone_system_num" field and declare it as a local variable in the relevant methods.(¹ï¢æ8éìğÔ.
+n
+java:S1764§"KCorrect one of the identical sub-expressions on both sides of operator "&&"(Æó´Ãüÿÿÿÿ8ñ¸† Õ.
+p
+java:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Œö€ª8é‹Œ Õ.
+Z
+java:S2589§"7Remove this expression which always evaluates to "true"(Æó´Ãüÿÿÿÿ8ñ¸† Õ.
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÙÔ¼8é‹Œ Õ.
+
+java:S1450/"kRemove the "title_notificaiton_auto_back" field and declare it as a local variable in the relevant methods.(‡½Ğşÿÿÿÿÿ8—ÀğÔ.
+n	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÏÓğ8é‹Œ Õ.
+
+java:S14507"_Remove the "title_bind_start" field and declare it as a local variable in the relevant methods.(¤€îÉúÿÿÿÿ8ÃÃõğÔ.
+Y	java:S125²"<This block of commented-out lines of code should be removed.(ËÒíç8²×€œÕ.
+?	java:S131¢""Add a default case to this switch.(ºÖ8²×€œÕ.
+T
+java:S2696©"6Make the enclosing method "static" or remove this set.(«æ‚ã8²×€œÕ.
+i
+java:S2184—"FCast one of the operands of this multiplication operation to a "long".(Ñğ™úÿÿÿÿ8Ú«ÿ›Õ.
+R
+java:S1066ä"/Merge this if statement with the enclosing one.(Ö ¥Îúÿÿÿÿ8Ú«ÿ›Õ.
+T
+java:S2696Ú"6Make the enclosing method "static" or remove this set.(ÏÉâ¤8é‹Œ Õ.
+Y
+java:S2696Š"6Make the enclosing method "static" or remove this set.(™½Ë·ùÿÿÿÿ8é‹Œ Õ.
+T
+java:S1068O"2Remove this unused "ANSWER_HUNG_UP" private field.(Ìî÷şÿÿÿÿ8²×€œÕ.
+S
+java:S2696‹"6Make the enclosing method "static" or remove this set.(ÑŞÛ'8é‹Œ Õ.
+^	java:S125Õ"<This block of commented-out lines of code should be removed.(œ§‡şÿÿÿÿ8é‹Œ Õ.
+`
+java:S2259Ç"BA "NullPointerException" could be thrown; "data" is nullable here.(ñÏÓğ8é‹Œ Õ.
+T
+java:S2696Ø"6Make the enclosing method "static" or remove this set.(Îğì¢8é‹Œ Õ.
+]	java:S125"<This block of commented-out lines of code should be removed.(´×†şÿÿÿÿ8²×€œÕ.
+b
+java:S3398í"?Move this method into the anonymous class declared at line 121.(´îãÕşÿÿÿÿ8é‹Œ Õ.
+]
+java:S3398»"?Move this method into the anonymous class declared at line 103.(»®íÇ8é‹Œ Õ.
+i
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(Ñğ™úÿÿÿÿ8Ú«ÿ›Õ.
+i
+java:S2184Ä"FCast one of the operands of this multiplication operation to a "long".(Ñğ™úÿÿÿÿ8Ú«ÿ›Õ.
+z
+java:S1450@"XRemove the "stop_test" field and declare it as a local variable in the relevant methods.(±Öù…úÿÿÿÿ8û¢£ñÔ.
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÙÔ¼8é‹Œ Õ.

@@ -1,0 +1,77 @@
+
+|
+java:S1450"ZRemove the "phone_count" field and declare it as a local variable in the relevant methods.(®ñÜúşÿÿÿÿ8ë‘ÏÕ.
+
+java:S1450$"_Remove the "test_connect_max" field and declare it as a local variable in the relevant methods.(şøèøÿÿÿÿ8å»­ÏÕ.
+P
+java:S1068".Remove this unused "test_model" private field.(ú÷¹ñüÿÿÿÿ8‚ãóÎÕ.
+I
+java:S1068",Remove this unused "test_mac" private field.(§£8‚ãóÎÕ.
+£
+java:S1186M"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ¸™áúÿÿÿÿ8¢ºìÊÕ.
+ˆ
+java:S1450"fRemove the "title_long_connect_back" field and declare it as a local variable in the relevant methods.(¤¡ñÆüÿÿÿÿ8éŞ‹ÏÕ.
+€
+java:S1450"^Remove the "title_stop_test" field and declare it as a local variable in the relevant methods.(ÚèÆæøÿÿÿÿ8º¸£ÏÕ.
+Y
+java:S1068"7Remove this unused "phone_select_device" private field.(şşå¦şÿÿÿÿ8ÒíáÎÕ.
+U
+java:S1068%"8Remove this unused "test_connect_average" private field.(Ÿˆ‹ğ8Î¨÷ÎÕ.
+Q
+java:S1068"/Remove this unused "phone_count" private field.(®ñÜúşÿÿÿÿ8ÒíáÎÕ.
+|
+java:S1450"_Remove the "phone_system_num" field and declare it as a local variable in the relevant methods.(¹ï¢æ8ë‘ÏÕ.
+
+java:S1450"_Remove the "test_bind_result" field and declare it as a local variable in the relevant methods.(÷’“şÿÿÿÿ8ğêÏÕ.
+t
+java:S1450"WRemove the "test_mac" field and declare it as a local variable in the relevant methods.(§£8ñ³¨ÏÕ.
+„
+java:S1450"bRemove the "phone_select_device" field and declare it as a local variable in the relevant methods.(şşå¦şÿÿÿÿ8ë‘ÏÕ.
+[
+java:S1068&"9Remove this unused "test_disconnect_count" private field.(íìÆùÿÿÿÿ8è€ŠÏÕ.
+{
+java:S1450"^Remove the "phone_style_num" field and declare it as a local variable in the relevant methods.(…ñˆ»8ë‘ÏÕ.
+~
+java:S1450"aRemove the "title_unbind_start" field and declare it as a local variable in the relevant methods.(İ ç8éÏœÏÕ.
+{
+java:S1450"YRemove the "test_model" field and declare it as a local variable in the relevant methods.(ú÷¹ñüÿÿÿÿ8ñ³¨ÏÕ.
+S
+java:S1068!"1Remove this unused "test_all_time" private field.(¿“õ¼ıÿÿÿÿ8‚ãóÎÕ.
+z
+java:S1450"]Remove the "phone_distance" field and declare it as a local variable in the relevant methods.(£µ§æ8ë‘ÏÕ.
+†
+java:S1450"dRemove the "select_device_releate" field and declare it as a local variable in the relevant methods.(Ñ¶ƒâúÿÿÿÿ8ë‘ÏÕ.
+
+java:S1450#"_Remove the "test_connect_min" field and declare it as a local variable in the relevant methods.(¯½›Ñúÿÿÿÿ8å»­ÏÕ.
+~
+java:S1450""aRemove the "test_current_timer" field and declare it as a local variable in the relevant methods.(‹¾¯Ç8³˜ªÏÕ.
+†
+java:S1450&"dRemove the "test_disconnect_count" field and declare it as a local variable in the relevant methods.(íìÆùÿÿÿÿ8¹Ó°ÏÕ.
+|
+java:S1450"_Remove the "title_start_test" field and declare it as a local variable in the relevant methods.(¼ş ñ8ÅÕŸÏÕ.
+O
+java:S1068"2Remove this unused "phone_distance" private field.(£µ§æ8ÒíáÎÕ.
+~
+java:S1450!"\Remove the "test_all_time" field and declare it as a local variable in the relevant methods.(¿“õ¼ıÿÿÿÿ8ñ³¨ÏÕ.
+O
+java:S1068"-Remove this unused "test_time" private field.(‚ÓÏĞşÿÿÿÿ8‚ãóÎÕ.
+V
+java:S1068#"4Remove this unused "test_connect_min" private field.(¯½›Ñúÿÿÿÿ8Î¨÷ÎÕ.
+w
+java:S1450"ZRemove the "test_result" field and declare it as a local variable in the relevant methods.(é‚‰¶8ĞÅ¤ÏÕ.
+z
+java:S1450"XRemove the "test_time" field and declare it as a local variable in the relevant methods.(‚ÓÏĞşÿÿÿÿ8ñ³¨ÏÕ.
+V
+java:S1068$"4Remove this unused "test_connect_max" private field.(şøèøÿÿÿÿ8Î¨÷ÎÕ.
+J
+java:S11442"-Remove this unused private "initView" method.(šœ•²8Í‘ğÊÕ.
+€
+java:S1450%"cRemove the "test_connect_average" field and declare it as a local variable in the relevant methods.(Ÿˆ‹ğ8å»­ÏÕ.
+N
+java:S1068 "1Remove this unused "test_distance" private field.(‚ÔÈç8‚ãóÎÕ.
+y
+java:S1450 "\Remove the "test_distance" field and declare it as a local variable in the relevant methods.(‚ÔÈç8ñ³¨ÏÕ.
+‚
+java:S1450"`Remove the "title_start_start" field and declare it as a local variable in the relevant methods.(¡˜ë•ıÿÿÿÿ8ôÁ›ÏÕ.
+S
+java:S1068""6Remove this unused "test_current_timer" private field.(‹¾¯Ç8Ø—õÎÕ.

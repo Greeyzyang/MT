@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_back_title"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_menu_back"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/color_back_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/connect_back"
+        android:textColor="@color/color_text"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_divider_bg"/>
+    <TextView
+        android:id="@+id/title_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/main_menu"
+        android:textColor="@color/color_white"
+        android:textSize="20sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_divider_bg"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_child_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_bluetooth_into"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/color_back_title"
+                android:gravity="center"
+                android:text="@string/main_menu_bluetooth_connect"
+                android:textColor="@color/color_text"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+            <TextView
+                android:id="@+id/title_bluetooth_no_confirm_into"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/color_back_title"
+                android:gravity="center"
+                android:text="@string/main_menu_bluetooth_no_confirm_connect"
+                android:textColor="@color/color_text"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+
+            <TextView
+                android:id="@+id/title_notification_auto_into"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/color_back_title"
+                android:gravity="center"
+                android:text="@string/main_menu_notification_auto_test"
+                android:textColor="@color/color_text"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+            <TextView
+                android:id="@+id/title_notification_manual_into"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/color_back_title"
+                android:gravity="center"
+                android:text="@string/main_menu_notification_manual_test"
+                android:textColor="@color/color_text"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+            <TextView
+                android:id="@+id/title_sync_data_bluetooth_auto_into"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/color_back_title"
+                android:gravity="center"
+                android:text="@string/main_menu_sync_data_bluetooth_auto"
+                android:textColor="@color/color_text"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+            <TextView
+                android:id="@+id/title_sync_data_bluetooth_manual_into"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/color_back_title"
+                android:gravity="center"
+                android:text="@string/main_menu_sync_data_bluetooth_manual"
+                android:textColor="@color/color_text"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+            <TextView
+            android:id="@+id/title_menu_update_into"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/color_back_title"
+            android:gravity="center"
+            android:text="@string/menu_title_update_into"
+            android:textColor="@color/color_text"
+            android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+            <TextView
+                android:id="@+id/title_menu_long_bluetooth_into"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/color_back_title"
+                android:gravity="center"
+                android:text="@string/blue_tooth_long_connect"
+                android:textColor="@color/color_text"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_divider_bg"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

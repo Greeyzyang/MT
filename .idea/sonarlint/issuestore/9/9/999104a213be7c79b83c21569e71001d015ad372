@@ -1,0 +1,115 @@
+
+
+java:S1450I"_Remove the "title_start_test" field and declare it as a local variable in the relevant methods.(«êåÊùÿÿÿÿ8ë”¯ïÖ.
+D	java:S131‚""Add a default case to this switch.(ıŞ³‹ùÿÿÿÿ8ÊúìôÖ.
+s	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âù¸¦øÿÿÿÿ8õÎ‹şÖ.
+>
+java:S1170a"!Make this final field static too.(½ÜŞÚ8Šõ–çÖ.
+i
+java:S2184ÿ"FCast one of the operands of this multiplication operation to a "long".(òùÈúÿÿÿÿ8³’úøÖ.
+Y
+java:S2696í"6Make the enclosing method "static" or remove this set.(¡¾µÏøÿÿÿÿ8Šù»ıÖ.
+p
+java:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(²‹Ã¢8©°¤øÖ.
+m	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ”ÆG8õÎ‹şÖ.
+s	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âù¸¦øÿÿÿÿ8õÎ‹şÖ.
+^	java:S125Ì"<This block of commented-out lines of code should be removed.( ÅÈéúÿÿÿÿ8õÎ‹şÖ.
+\
+java:S3398¬"?Move this method into the anonymous class declared at line 125.(Ÿ”ÆG8õÎ‹şÖ.
+
+java:S1450E"mRemove the "select_version_upgrade_releate" field and declare it as a local variable in the relevant methods.(ÄÕÂùÿÿÿÿ8ÚœÆîÖ.
+n
+java:S1301‚"KReplace this "switch" statement by "if" statements to increase readability.(ıŞ³‹ùÿÿÿÿ8ìŒçüÖ.
+>
+java:S1170{"!Make this final field static too.(á•ú¶8¼Ò£øÖ.
+9
+java:S3626’"Remove this redundant jump.(ûÁİ…8õÎ‹şÖ.
+T
+java:S2696î"6Make the enclosing method "static" or remove this set.(ßâŞ¹8×“‘õÖ.
+T
+java:S2696ï"6Make the enclosing method "static" or remove this set.(âßüÂ8×“‘õÖ.
+M
+java:S11283"0Remove this unused import 'java.io.InputStream'.(¹»º8”¿ŠñÖ.
+Y
+java:S2696ğ"6Make the enclosing method "static" or remove this set.(äÀ‚éşÿÿÿÿ8õÎ‹şÖ.
+Y	java:S125­"<This block of commented-out lines of code should be removed.(š¿ØØ8õÎ‹şÖ.
+T
+java:S2696á"6Make the enclosing method "static" or remove this set.(û†û 8õÎ‹şÖ.
+m	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ”ÆG8õÎ‹şÖ.
+s	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âù¸¦øÿÿÿÿ8õÎ‹şÖ.
+{
+java:S1450;"^Remove the "phone_style_num" field and declare it as a local variable in the relevant methods.(…ñˆ»8ªÃØæÖ.
+Y
+java:S2696­"6Make the enclosing method "static" or remove this set.(Õ‘áöıÿÿÿÿ8×“‘õÖ.
+s	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âù¸¦øÿÿÿÿ8õÎ‹şÖ.
+b
+java:S3398É"?Move this method into the anonymous class declared at line 125.(âù¸¦øÿÿÿÿ8õÎ‹şÖ.
+m	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ”ÆG8õÎ‹şÖ.
+s	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âù¸¦øÿÿÿÿ8õÎ‹şÖ.
+_
+java:S1128"=Remove this unused import 'android.content.res.AssetManager'.(ÜÅÕıÿÿÿÿ8”¿ŠñÖ.
+
+java:S1450B"_Remove the "title_bind_start" field and declare it as a local variable in the relevant methods.(¤€îÉúÿÿÿÿ8ªÃØæÖ.
+~
+java:S1450C"aRemove the "title_unbind_start" field and declare it as a local variable in the relevant methods.(İ ç8ªÃØæÖ.
+s	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âù¸¦øÿÿÿÿ8õÎ‹şÖ.
+m	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ”ÆG8õÎ‹şÖ.
+u
+java:S3776ø"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ğ¸™áúÿÿÿÿ8ÊúìôÖ.
+}
+java:S1450_"`Remove the "test_fail_records" field and declare it as a local variable in the relevant methods.(ñÒû8Š¾øæÖ.
+^	java:S125Ş"<This block of commented-out lines of code should be removed.(œ§‡şÿÿÿÿ8ÊúìôÖ.
+T
+java:S2696Š"6Make the enclosing method "static" or remove this set.(‰ì˜Æ8“§æüÖ.
+c
+java:S2184ö"FCast one of the operands of this multiplication operation to a "long".(ğ™ó8Å™õøÖ.
+Y
+java:S2696«"6Make the enclosing method "static" or remove this set.(áÿã‰ÿÿÿÿÿ8×“‘õÖ.
+Z
+java:S1128"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8³èïÖ.
+Z
+java:S1128"8Remove this unused import 'android.widget.ArrayAdapter'.( €ŠÑÿÿÿÿÿ8³èïÖ.
+F
+java:S1604Ï"(Make this anonymous inner class a lambda(æµİ³8õÎ‹şÖ.
+T
+java:S2696ò"6Make the enclosing method "static" or remove this set.(ä‘è8×“‘õÖ.
+T
+java:S2696‹"6Make the enclosing method "static" or remove this set.(€Ùÿ²8×“‘õÖ.
+`
+java:S2259š"BA "NullPointerException" could be thrown; "data" is nullable here.(ñÏÓğ8õÎ‹şÖ.
+i
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(¨‘´Òùÿÿÿÿ8³’úøÖ.
+R
+java:S1066¸"/Merge this if statement with the enclosing one.(Ö ¥Îúÿÿÿÿ8ëìêÖ.
+C
+java:S1170z"!Make this final field static too.(“î¿Äøÿÿÿÿ8ãŸïéÖ.
+R
+java:S1128"5Remove this unused import 'android.widget.PopupMenu'.(©õ‘Ò8¼ıŸñÖ.
+†
+java:S1450="dRemove the "select_device_releate" field and declare it as a local variable in the relevant methods.(Ñ¶ƒâúÿÿÿÿ8ªÃØæÖ.
+F
+java:S1604²"(Make this anonymous inner class a lambda(öÜÏı8ßèêÖ.
+?	java:S131ù""Add a default case to this switch.(ºÖ8ÊúìôÖ.
+m	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ”ÆG8õÎ‹şÖ.
+T
+java:S2696ø"6Make the enclosing method "static" or remove this set.(Ùà©Å8×“‘õÖ.
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(„ê˜‘şÿÿÿÿ8×“‘õÖ.
+}
+java:S1450:"`Remove the "title_update_back" field and declare it as a local variable in the relevant methods.(İ‚îÓ8’’ÊÖ.
+C
+java:S1170|"!Make this final field static too.(¶Ä˜Éùÿÿÿÿ8ÄÏÓıÖ.
+b
+java:S1068|"@Remove this unused "MSG_GET_UPDATE_PROGRESS_INFO" private field.(¶Ä˜Éùÿÿÿÿ8‰¯‹şÖ.
+|
+java:S1450<"_Remove the "phone_system_num" field and declare it as a local variable in the relevant methods.(¹ï¢æ8ªÃØæÖ.
+n	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÏÓğ8õÎ‹şÖ.
+‘
+java:S1450G"oRemove the "select_version_downgrade_releate" field and declare it as a local variable in the relevant methods.(ÍŠ¬‚ıÿÿÿÿ8ë”¯ïÖ.
+i
+java:S1128("GRemove this unused import 'com.ryeex.ble.connector.handler.BleHandler'.(ã¤ƒßÿÿÿÿÿ8Å½…ñÖ.
+K
+java:S1604°"(Make this anonymous inner class a lambda(ÃÍ×ùùÿÿÿÿ8õÎ‹şÖ.
+Q
+java:S11282"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8”¿ŠñÖ.
+m	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ”ÆG8õÎ‹şÖ.
