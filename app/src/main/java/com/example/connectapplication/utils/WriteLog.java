@@ -30,7 +30,7 @@ public class WriteLog {
     public static  void startLog(Context ct, String tag){
         stopLog();
 
-        String folder = ct.getExternalFilesDir(null)+"/WathLogs";
+        String folder = ct.getExternalFilesDir(null)+"/MTlogs";
         ClearLogFiles(folder);
 
         mWriteThread = new HandlerThread("AndroidFileLogger." + folder);

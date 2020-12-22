@@ -191,6 +191,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_update_ota);
         getAllname(fileDir);
+        currentday = GetTime.getCurrentTime_Today();
         popupWindowAdapter = new PopupWindowAdapter(UpdateActivity.this,filenames);
         getUpdatePopWindow();
         getDowngradePopWindow();
@@ -346,6 +347,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
             case R.id.test_fail_records:
                 if (watchDevice.isLogin()) {
                     ScanBlueTooth.writeDeviceLog(watchDevice, UpdateActivity.this, currentday);
+                    Toast.makeText(UpdateActivity.this, "导入设备日志成功", Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(UpdateActivity.this, "请确保设备绑定状态", Toast.LENGTH_LONG).show();
                 }
