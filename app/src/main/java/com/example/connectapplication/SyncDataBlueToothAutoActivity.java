@@ -132,6 +132,7 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
 
             switch (msg.what) {
                 case MSG_GET_SYNC_DATA_HEALTH:
+                    Log.d("yj","MSG_GET_SYNC_DATA_HEALTH");
                      isComputeSyncDataConnected = false;
                      Log.d("yj","playCount-----"+playCount);
                     if (playCount == 0) {
@@ -269,7 +270,7 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                 if(Util.isFastClick())
                     startBindorUnbind(true);
                 break;
-            case R.id.title_unbind_start:
+            case R.id.title_unbind_result:
                 if(Util.isFastClick())
                     startBindorUnbind(false);
                 break;
@@ -412,15 +413,18 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEvent(BindEvent event) {
-
+        Log.d("yj","进入onevent--------");
         if (event.message.equals(CommonValue.BIND_SUCCESS)) {
+            Log.d("yj","进入onevent1--------");
             test_bind_unbind_result.setText("绑定设备成功");
             isBind = true;
             if(hasbinderror) {
+                Log.d("yj","进入onevent1-1-------");
                 sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH, playspace * 1000);
                 hasbinderror = false;
             }
         } else if (event.message.equals(CommonValue.BIND_ERROR)) {
+            Log.d("yj","进入onevent2--------");
             wrong_logs = wrong_logs+"\n"+event.errorinfo;
             test_bind_unbind_result.setText("绑定设备失败");
             //ConnectionDialog.showNormalDialog(NotificationAutoTestActivity.this);
@@ -429,6 +433,7 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
             String message = error.split("\\|")[1];
             Toast.makeText(SyncDataBlueToothAutoActivity.this,message,Toast.LENGTH_LONG).show();
             if(bleCode.equals("133")){
+                Log.d("yj","进入onevent2-1-------");
                 mBluetooth.disable();
                 Toast.makeText(SyncDataBlueToothAutoActivity.this,"蓝牙关闭成功",Toast.LENGTH_LONG).show();
                 try {
@@ -440,6 +445,7 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                     e.printStackTrace();
                 }
             }else if(bleCode.equals("-1")&&message.equals("device had bind already")){
+                Log.d("yj","进入onevent2-2-------");
                 hasbinderror = true;
                 ScanBlueTooth.endBind(watchDevice);
                 Toast.makeText(SyncDataBlueToothAutoActivity.this,"device had bind already",Toast.LENGTH_LONG).show();
@@ -447,9 +453,11 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
         }
 
         if (event.message.equals(CommonValue.UNBIND_SUCCESS)) {
+            Log.d("yj","进入onevent3--------");
             test_bind_unbind_result.setText("解绑设备成功");
             isBind = false;
             if(hasbinderror) {
+                Log.d("yj","进入onevent3-1-------");
                 try {
                     Thread.sleep(7000);
                     ScanBlueTooth.startBind(scannedDevices, watchDevice);
@@ -458,25 +466,31 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                 }
             }
         } else if (event.message.equals(CommonValue.UNBIND_ERROR)) {
+            Log.d("yj","进入onevent4--------");
             wrong_logs = wrong_logs+"\n"+event.errorinfo;
             test_bind_unbind_result.setText("解绑设备失败");
             String error = JosnParse.parseString(event.errorinfo);
             String bleCode = error.split("\\|")[0];
             String message = error.split("\\|")[1];
             if(hasbinderror)
+                Log.d("yj","进入onevent4-1-------");
                 sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH,playspace*1000);
             Toast.makeText(SyncDataBlueToothAutoActivity.this,message,Toast.LENGTH_LONG).show();
         }
 
         if(event.message.equals("syncDataSuccess")){
+            Log.d("yj","进入onevent5--------");
             if(!isComputeSyncDataConnected)
+                Log.d("yj","进入onevent5-1-------");
                 sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH,playspace*1000);
         }else if(event.message.equals("syncDataError")){
+            Log.d("yj","进入onevent6--------");
             wrong_logs = wrong_logs+"\n"+event.errorinfo;
             String error = JosnParse.parseString(event.errorinfo);
             String bleCode = error.split("\\|")[0];
             String message = error.split("\\|")[1];
             if(bleCode.equals("-1")&&message.equals("device is not connected")){
+                Log.d("yj","进入onevent6-1-------");
                 try {
                     Thread.sleep(7000);
                     mBluetooth.enable();
@@ -488,15 +502,18 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                 }
             }
             else {
+                Log.d("yj","进入onevent6-2-------");
                 if (!isComputeSyncDataConnected)
                     sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH,playspace*1000);
             }
         }else if(event.message.equals("syncTimeError")){
+            Log.d("yj","进入onevent7--------");
             wrong_logs = wrong_logs+"\n"+event.errorinfo;
             String error = JosnParse.parseString(event.errorinfo);
             String bleCode = error.split("\\|")[0];
             String message = error.split("\\|")[1];
             if(bleCode.equals("-1")&&message.equals("device is not connected")){
+                Log.d("yj","进入onevent7-1-------");
                 try {
                     Thread.sleep(7000);
                     mBluetooth.enable();
@@ -508,15 +525,18 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                 }
             }
             else {
+                Log.d("yj","进入onevent7-2-------");
                 if (!isComputeSyncDataConnected)
                     sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH,playspace*1000);
             }
         }else if(event.message.equals("syncWeightError")){
+            Log.d("yj","进入onevent8--------");
             wrong_logs = wrong_logs+"\n"+event.errorinfo;
             String error = JosnParse.parseString(event.errorinfo);
             String bleCode = error.split("\\|")[0];
             String message = error.split("\\|")[1];
             if(bleCode.equals("-1")&&message.equals("device is not connected")){
+                Log.d("yj","进入onevent8-1-------");
                 try {
                     Thread.sleep(7000);
                     mBluetooth.enable();
@@ -528,15 +548,19 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                 }
             }
             else {
+                Log.d("yj","进入onevent8-2-------");
                 if (!isComputeSyncDataConnected)
+                    Log.d("yj","进入onevent8-2-1------");
                     sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH,playspace*1000);
             }
         }else if(event.message.equals("syncHeightError")){
+            Log.d("yj","进入onevent9--------");
             wrong_logs = wrong_logs+"\n"+event.errorinfo;
             String error = JosnParse.parseString(event.errorinfo);
             String bleCode = error.split("\\|")[0];
             String message = error.split("\\|")[1];
            if(bleCode.equals("-1")&&message.equals("device is not connected")){
+               Log.d("yj","进入onevent9-1-------");
                 try {
                     Thread.sleep(7000);
                     mBluetooth.enable();
@@ -548,19 +572,25 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                 }
             }
             else {
+               Log.d("yj","进入onevent9-2-------");
                 if (!isComputeSyncDataConnected)
+                    Log.d("yj","进入onevent9-2-1------");
                     sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH,playspace*1000);
             }
         }
 
         if(event.message.equals(CommonValue.LOGIN_SUCCESS)){
+            Log.d("yj","进入onevent10--------");
             if (!isComputeSyncDataConnected)
+                Log.d("yj","进入onevent10-1-------");
                 sHandler.sendEmptyMessageDelayed(MSG_GET_SYNC_DATA_HEALTH,playspace*1000);
         }else if(event.message.equals(CommonValue.LOGIN_ERROR)) {
+            Log.d("yj","进入onevent11--------");
             String error = JosnParse.parseString(event.errorinfo);
             String bleCode = error.split("\\|")[0];
             String message = error.split("\\|")[1];
             if (bleCode.equals("133")) {
+                Log.d("yj","进入onevent11-1-------");
                 mBluetooth.disable();
                 Toast.makeText(SyncDataBlueToothAutoActivity.this, "蓝牙关闭成功", Toast.LENGTH_LONG).show();
                 try {
@@ -572,6 +602,7 @@ public class SyncDataBlueToothAutoActivity extends AppCompatActivity implements 
                     e.printStackTrace();
                 }
             } else {
+                Log.d("yj","进入onevent11-2-------");
                 try {
                     Thread.sleep(7000);
                     ScanBlueTooth.startLogin(watchDevice);

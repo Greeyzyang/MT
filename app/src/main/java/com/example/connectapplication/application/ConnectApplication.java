@@ -13,6 +13,7 @@ import com.example.connectapplication.utils.WriteLog;
 import com.example.connectapplication.utils.WriteLogToFile;
 import com.ryeex.ble.connector.BleEngine;
 import com.ryeex.ble.connector.log.BleLogCallback;
+import com.ryeex.groot.lib.log.Logger;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -40,6 +41,7 @@ public class ConnectApplication extends MultiDexApplication {
         //checkPermission();
         WriteLogToFile.init(this);
         WriteLog.startLog(this,"WatchSdkLog");
+        Logger.init(this, true, true);
         BleEngine.init(this, new BleLogCallback() {
             @Override
             public void verbose(String tag, String msg) {
@@ -48,7 +50,7 @@ public class ConnectApplication extends MultiDexApplication {
                     //if(checkPermission())
                        // WriteLogToFile.writeToFile(VERBOSE, tag, msg, currentday);
                         //LogToFileUtils.write(GetTime.getCurrentTime_Today()+":::"+tag+"-------"+msg);
-                    WriteLog.v(msg);
+                    Logger.v(tag, msg);
                 } catch (Exception e) {
                     Log.e("yj", "e---verbose--" + e.toString());
                 }
@@ -61,7 +63,7 @@ public class ConnectApplication extends MultiDexApplication {
                     //if(checkPermission())
                       //  WriteLogToFile.writeToFile(DEBUG, tag, msg, currentday);
                     //LogToFileUtils.write(GetTime.getCurrentTime_Today()+":::"+tag+"-------"+msg);
-                    WriteLog.d(msg);
+                    Logger.d(tag, msg);
                 } catch (Exception e) {
                     Log.e("yj", "e---debug--" + e.toString());
                 }
@@ -74,7 +76,7 @@ public class ConnectApplication extends MultiDexApplication {
                     //if(checkPermission())
                        // WriteLogToFile.writeToFile(INFO, tag, msg, currentday);
                     //LogToFileUtils.write(GetTime.getCurrentTime_Today()+":::"+tag+"-------"+msg);
-                    WriteLog.i(msg);
+                    Logger.i(tag, msg);
                 } catch (Exception e) {
                     Log.e("yj", "e---info--" + e.toString());
                 }
@@ -87,7 +89,7 @@ public class ConnectApplication extends MultiDexApplication {
                     //if(checkPermission())
                      //   WriteLogToFile.writeToFile(WARN, tag, msg, currentday);
                     //LogToFileUtils.write(GetTime.getCurrentTime_Today()+":::"+tag+"-------"+msg);
-                    WriteLog.w(msg);
+                    Logger.w(tag, msg);
                 } catch (Exception e) {
                     Log.e("yj", "e---warn--" + e.toString());
                 }
@@ -100,7 +102,7 @@ public class ConnectApplication extends MultiDexApplication {
                     //if(checkPermission())
                     //WriteLogToFile.writeToFile(ERROR, tag, msg, currentday);
                     //LogToFileUtils.write(GetTime.getCurrentTime_Today()+":::"+tag+"-------"+msg);
-                    WriteLog.e(msg);
+                    Logger.e(tag, msg);
                 } catch (Exception e) {
                     Log.e("yj", "e---error--" + e.toString());
                 }

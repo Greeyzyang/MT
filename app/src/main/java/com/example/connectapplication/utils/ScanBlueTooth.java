@@ -491,6 +491,8 @@ public class ScanBlueTooth {
         });
     }
 
+
+
     public static void UpdateVersion1(WatchDevice watchDevice, String version, String fileDir, String filename, String filename1) {
         //TODO demo是用assets资源，实际是要从云端下载
 
@@ -499,6 +501,7 @@ public class ScanBlueTooth {
         //是否强制升级
         firmwareUpdateInfo.setForce(false);
         firmwareUpdateInfo.setVersion(version);
+        
         FirmwareUpdateInfo.UpdateItem updateItem = new FirmwareUpdateInfo.UpdateItem();
         //0资源包 1固件包 注意有些版本是两个包有都的，demo这两个版本是没有资源包的
         updateItem.setId(1);
@@ -523,7 +526,7 @@ public class ScanBlueTooth {
         items.add(updateItem1);
 
         firmwareUpdateInfo.setUrlList(items);
-        firmwareUpdateInfo.setResFull(true);
+        firmwareUpdateInfo.setResFull(false);
 
         Log.i("yj", "updateFirmware firmwareUpdateInfo:" + GSON.toJSONString(firmwareUpdateInfo));
 

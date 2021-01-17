@@ -183,6 +183,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
 
             switch (msg.what) {
                 case MSG_GET_BLUETOOTH_MAC:
+                    Log.d("yj","MSG_GET_BLUETOOTH_MAC");
                     Log.d("yj", "bluetooth---mac----");
                     isScanSuccess = true;
                     mHandler.removeCallbacks(mBackgroundRunnable);
@@ -197,6 +198,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                     ScanBlueTooth.startBind(scannedDevice, watchDevice);
                     break;
                 case MSG_GET_BLUETOOTH_MAC_FAIL:
+                    Log.d("yj","MSG_GET_BLUETOOTH_MAC_FAIL");
                     mHandler.removeCallbacks(mBackgroundRunnable);
                     isWait = true;
                     if(isScan) {
@@ -208,6 +210,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                     sendMessages(isScan, MSG_GET_SCAN_COMPUTE, playspace);
                     break;
                 case MSG_GET_SCAN_COMPUTE:
+                    Log.d("yj","MSG_GET_SCAN_COMPUTE");
                     boolean isScan = (boolean) msg.obj;
                     isScanSuccess = false;
                     if (isScan)
@@ -274,6 +277,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                         playCount--;
                     break;
                 case MSG_GET_LOGIN_FIRST_COMPUTE:
+                    Log.d("yj","MSG_GET_LOGIN_FIRST_COMPUTE");
                     BleScanner.getInstance().stopScan();
                     isScanSuccess = false;
                     time = 30;
@@ -282,6 +286,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                     ScanBlueTooth.startScan(BlueToothConnectActivity.this);
                     break;
                 case MSG_GET_LOGIN_FIRST_LOGINOUT:
+                    Log.d("yj","MSG_GET_LOGIN_FIRST_LOGINOUT");
                     isComputeLoginConnected = false;
                     ScanBlueTooth.endlogout(watchDevice);
                     break;
@@ -520,23 +525,29 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEvent(BindEvent event) {
+        Log.d("yj","进入onevent--------");
         if (event.message.equals(CommonValue.BIND_SUCCESS)) {
+            Log.d("yj","onevent1--------");
             if(isBind){
+                Log.d("yj","onevent1-1-------");
                 test_bind_unbind_result.setText("绑定成功");
                 isBind = false;
                 return;
             }
             if(hasbinderror) {
+                Log.d("yj","onevent1-2-------");
                 sendMessages(isScan, MSG_GET_SCAN_COMPUTE, 10);
                 hasbinderror = false;
                 return;
             }
             if (isScan) {
+                Log.d("yj","onevent1-3-------");
                 CommonValue.CONNECT_SUCCESS++;
                 Log.d("yj","playCount-----"+playCount+"----CommonValueSuccess----"+CommonValue.CONNECT_SUCCESS+"----CommonValueFail----"+CommonValue.CONNECT_FAIL);
                 endConnectTime = System.currentTimeMillis();
                 connectList.add(endConnectTime - startConnectTime);
             } else {
+                Log.d("yj","onevent1-4-------");
                 Toast.makeText(BlueToothConnectActivity.this,"初始绑定成功，准备直连，请稍后……",Toast.LENGTH_LONG).show();
                 sendMessages(isScan, MSG_GET_LOGIN_FIRST_LOGINOUT, 0);
                 return;
@@ -556,6 +567,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
             CommonShared.WriteToken(BlueToothConnectActivity.this, phone_select_device.getText().toString().trim(), watchDevice.getToken());
 
         } else if (event.message.equals(CommonValue.BIND_ERROR)) {
+            Log.d("yj","onevent2--------");
             Log.d("yj","bind---error----");
             wrong_log = wrong_log + "\n" + event.errorinfo;
             String error = JosnParse.parseString(event.errorinfo);
@@ -564,28 +576,35 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
             Log.d("yj","bleCode---bind-----::"+bleCode+"====message===="+message);
             Toast.makeText(BlueToothConnectActivity.this,message,Toast.LENGTH_LONG).show();
             if (isScan) {
+                Log.d("yj","onevent2-1-------");
                 CommonValue.CONNECT_FAIL++;
                 endConnectTime = System.currentTimeMillis();
                 connectList.add(endConnectTime - startConnectTime);
                 if (CommonValue.COUNT_ALL == 1) {
+                    Log.d("yj","onevent2-1-1------");
                     ConnectionDialog.showNormalDialog(BlueToothConnectActivity.this);
                     return;
                 }
             }else {
+                Log.d("yj","onevent2-2-------");
                 Log.d("yj", "bind---error--2222--" + CommonValue.COUNT_ALL);
                 if (CommonValue.COUNT_ALL == 0||CommonValue.COUNT_ALL ==1) {
+                    Log.d("yj","onevent2-2-1------");
                     ConnectionDialog.showNormalDialog(BlueToothConnectActivity.this);
                     return;
                 }
             }
             if (!isComputeScanConnected) {
-
+                Log.d("yj","onevent2-3-------");
                    if (watchDevice.isLogin()) {
+                       Log.d("yj","onevent2-3-1------");
                        Log.d("yj", "binderror----islogin---");
                        //sendMessages(isScan, MSG_GET_SCAN_COMPUTE, playspace);
                            ScanBlueTooth.endBind(watchDevice);
                    } else {
+                       Log.d("yj","onevent2-3-2------");
                        if(bleCode.equals("133")){
+                           Log.d("yj","onevent2-3-2-1-----");
                            mBluetooth.disable();
                            Toast.makeText(BlueToothConnectActivity.this,"蓝牙关闭成功",Toast.LENGTH_LONG).show();
                            try {
@@ -597,9 +616,11 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                                e.printStackTrace();
                            }
                        }else if(bleCode.equals("-1")&&message.equals("device had bind already")){
+                           Log.d("yj","onevent2-3-2-1-2----");
                            hasbinderror = true;
                            ScanBlueTooth.endBind(watchDevice);
                        }else{
+                           Log.d("yj","onevent2-3-2-1-3----");
                            try {
                                Thread.sleep(7000);
                                sendMessages(isScan, MSG_GET_SCAN_COMPUTE, playspace);
@@ -613,16 +634,20 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
 
 
             if (watchDevice.isLogin())
+                Log.d("yj","onevent2-4-------");
                 ScanBlueTooth.writeBleError(watchDevice, BlueToothConnectActivity.this, currentday);
         }
 
         if (event.message.equals(CommonValue.UNBIND_SUCCESS)) {
+            Log.d("yj","onevent3--------");
             if(isBind){
+                Log.d("yj","onevent3-1-------");
                 test_bind_unbind_result.setText("解绑成功");
                 isBind = false;
                 return;
             }
             if(hasbinderror){
+                Log.d("yj","onevent3-2-------");
                 try {
                     Thread.sleep(7000);
                     ScanBlueTooth.startBind(scanneddevice,watchDevice);
@@ -631,22 +656,28 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                 }
             }
             if(isFirstBind){
+                Log.d("yj","onevent3-3-------");
                 sendMessages(isScan, MSG_GET_SCAN_COMPUTE, 10);
                 isFirstBind = false;
                 return;
             }
             if (!isComputeScanConnected) {
+                Log.d("yj","onevent3-4-------");
                 Log.d("yj", "watchDevice.islogin----unbind--success--" + watchDevice.isLogin());
                 sendMessages(isScan, MSG_GET_SCAN_COMPUTE, 10);
             }
             CommonShared.WriteToken(BlueToothConnectActivity.this, phone_select_device.getText().toString().trim(), "");
         } else if (event.message.equals(CommonValue.UNBIND_ERROR)) {
+            Log.d("yj","onevent4--------");
             wrong_log = wrong_log + "\n" + event.errorinfo;
             if (!isComputeScanConnected) {
+                Log.d("yj","onevent4-1-------");
                 if (watchDevice.isLogin()) {
+                    Log.d("yj","onevent4-1-1------");
                     //sendMessages(true, MSG_GET_SCAN_COMPUTE, playspace);
                     ScanBlueTooth.endBind(watchDevice);
                 } else {
+                    Log.d("yj","onevent4-1-2------");
                     isUnbindError = true;
                     try {
                         Thread.sleep(7000);
@@ -659,62 +690,76 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
 
             }
             if(hasbinderror)
+                Log.d("yj","onevent4-2-------");
                 sendMessages(isScan, MSG_GET_SCAN_COMPUTE, 10);
 
             if (watchDevice.isLogin())
+                Log.d("yj","onevent4-3-------");
                 ScanBlueTooth.writeBleError(watchDevice, BlueToothConnectActivity.this, currentday);
         }
 
         if (event.message.equals(CommonValue.LOGIN_SUCCESS)) {
+            Log.d("yj","onevent5--------");
             if (!isBindconnected && !isUnbindConnected && !isLoginConnected && !isLogoutConnected) {
+                Log.d("yj","onevent5-1-------");
                 CommonValue.CONNECT_SUCCESS++;
                 endConnectTime = System.currentTimeMillis();
                 connectList.add(endConnectTime - startConnectTime);
             }
             if (watchDevice.isLogin()) {
+                Log.d("yj","onevent5-2-------");
                 if (isBindconnected) {
+                    Log.d("yj","onevent5-2-1------");
                     isBindconnected = false;
                     ScanBlueTooth.endBind(watchDevice);
                     return;
                 }
                 if(isBindError){
+                    Log.d("yj","onevent5-2-2------");
                     isBindError = false;
                     ScanBlueTooth.endBind(watchDevice);
                     return;
                 }
 
                 if (isUnbindConnected) {
+                    Log.d("yj","onevent5-2-3------");
                     isUnbindConnected = false;
                     ScanBlueTooth.endBind(watchDevice);
                     return;
                 }
                 if(isUnbindError){
+                    Log.d("yj","onevent5-2-4------");
                     isUnbindError = false;
                     ScanBlueTooth.endBind(watchDevice);
                     return;
                 }
                 if (isLoginConnected) {
+                    Log.d("yj","onevent5-2-5------");
                     isLogoutConnected = false;
                     ScanBlueTooth.endlogout(watchDevice);
                     return;
                 }
                 if(isLoginError){
+                    Log.d("yj","onevent5-2-6------");
                     isLoginError = false;
                     ScanBlueTooth.endlogout(watchDevice);
                     return;
                 }
                 if (isLogoutConnected) {
+                    Log.d("yj","onevent5-2-7------");
                     isLogoutConnected = false;
                     ScanBlueTooth.endlogout(watchDevice);
                     return;
                 }
                 if(isLogoutError){
+                    Log.d("yj","onevent5-2-8------");
                     isLogoutError = false;
                     ScanBlueTooth.endlogout(watchDevice);
                     return;
                 }
                 ScanBlueTooth.endlogout(watchDevice);
             } else {
+                Log.d("yj","onevent5-3-------");
                 isLoginConnected = true;
                 try {
                     Thread.sleep(7000);
@@ -724,6 +769,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                 }
             }
         } else if (event.message.equals(CommonValue.LOGIN_ERROR)) {
+            Log.d("yj","onevent6--------");
             wrong_log = wrong_log + "\n" + event.errorinfo;
             String error = JosnParse.parseString(event.errorinfo);
             String bleCode = error.split("\\|")[0];
@@ -731,12 +777,15 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
             Log.d("yj","bleCode---login----"+bleCode+"====message----login---"+message);
             if(!isBindconnected&&!isLoginConnected&&!isUnbindConnected&&!isLogoutConnected
                 &&!isLoginError&&!isBindError&&!isUnbindError&&!isLogoutError) {
+                Log.d("yj","onevent6-1-------");
                 CommonValue.CONNECT_FAIL++;
                 endConnectTime = System.currentTimeMillis();
                 connectList.add(endConnectTime - startConnectTime);
                 sendMessages(isScan,MSG_GET_SCAN_COMPUTE,0);
             }else{
+                Log.d("yj","onevent6-2-------");
                 if(bleCode.equals("133")) {
+                    Log.d("yj","onevent6-2-1------");
                     mBluetooth.disable();
                     Toast.makeText(BlueToothConnectActivity.this, "蓝牙关闭成功", Toast.LENGTH_LONG).show();
                     try {
@@ -748,6 +797,7 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                         e.printStackTrace();
                     }
                 }else {
+                    Log.d("yj","onevent6-2-2------");
                     try {
                         Thread.sleep(7000);
                         isLoginError = true;
@@ -758,18 +808,23 @@ public class BlueToothConnectActivity extends AppCompatActivity implements View.
                 }
             }
             if(watchDevice.isLogin())
+                Log.d("yj","onevent6-3-------");
                 ScanBlueTooth.writeBleError(watchDevice, BlueToothConnectActivity.this, currentday);
         }
 
         if (event.message.equals(CommonValue.LOGOUT_SUCCESS)) {
+            Log.d("yj","onevent7--------");
             if (!isComputeLoginConnected) {
+                Log.d("yj","onevent7-1-------");
                 sendMessages(isScan, MSG_GET_SCAN_COMPUTE, playspace);
             }
         } else if (event.message.equals(CommonValue.LOGOUT_ERROR)) {
+            Log.d("yj","onevent8--------");
             wrong_log = wrong_log + "\n" + event.errorinfo;
             if(watchDevice.isLogin())
                 ScanBlueTooth.endlogout(watchDevice);
             else{
+                Log.d("yj","onevent8-2-------");
                 try {
                     Thread.sleep(7000);
                     ScanBlueTooth.startLogin(watchDevice);
